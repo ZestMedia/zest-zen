@@ -1,0 +1,1836 @@
+
+/* Default style classes for content */
+/* Last updated 12 Oct 2013 */
+
+/* -- Position -- */
+.left {float:left;margin-right:10px;margin-bottom:10px;}
+.right {float:right;margin-left:10px;margin-bottom:10px;}
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+	width:100%;
+}
+.fitimage img {width:100%;}
+/* -- End Position -- */
+
+/* -- Padding -- */
+.pad2 {padding:0 !important;}
+.pad3 {padding:0 !important;}
+.pad4 {padding:0 !important;}
+.pad5 {padding:0 !important;}
+.pad6 {padding:0 !important;}
+.pad8 {padding:0 !important;}
+.pad10 {padding:0 !important;}
+.pad12 {padding:0 !important;}
+.pad15 {padding:0 !important;}
+.pad20 {padding:0 !important;}
+.pad25 {padding:0 !important;}
+
+.pad2 .view-content, .pad2 .block-content-wrap {padding:0 2px 2px 2px;}
+.pad3 .view-content, .pad3 .block-content-wrap {padding:0 3px 3px 3px;}
+.pad4 .view-content, .pad4 .block-content-wrap {padding:0 4px 4px 4px;}
+.pad5 .view-content, .pad5 .block-content-wrap {padding:0 5px 5px 5px;}
+.pad6 .view-content, .pad6 .block-content-wrap {padding:0 6px 6px 6px;}
+.pad8 .view-content, .pad8 .block-content-wrap {padding:0 8px 8px 8px;}
+.pad10 .view-content, .pad10 .block-content-wrap {padding:0 10px 10px 10px;}
+.pad12 .view-content, .pad12 .block-content-wrap {padding:0 12px 12px 12px;}
+.pad15 .view-content, .pad15 .block-content-wrap {padding:0 15px 15px 15px;}
+.pad20 .view-content, .pad20 .block-content-wrap {padding:0 20px 20px 20px;}
+.pad25 .view-content, .pad25 .block-content-wrap {padding:0 25px 25px 25px;}
+
+
+.pad2 .block-title {padding:2px !important;margin-bottom:1px !important;}
+.pad3 .block-title {padding:1px 3px !important;margin-bottom:2px !important;}
+.pad4 .block-title {padding:2px 4px !important;margin-bottom:2px !important;}
+.pad5 .block-title {padding:2px 5px !important;margin-bottom:3px !important;}
+.pad6 .block-title {padding:4px 6px !important;margin-bottom:4px !important;}
+.pad8 .block-title {padding:4px 8px !important;margin-bottom:6px !important;}
+.pad10 .block-title {padding:6px 10px !important;margin-bottom:8px !important;}
+.pad12 .block-title {padding:8px 12px !important;margin-bottom:10px !important;}
+.pad15 .block-title {padding:8px 15px !important;margin-bottom:10px !important;}
+.pad20 .block-title {padding:10px 20px !important;margin-bottom:15px !important;}
+.pad25 .block-title {padding:10px 25px !important;margin-bottom:20px !important;}
+
+/* -- End Padding -- */
+
+/* -- Drop Shadow -- */
+.dropshadow10 { -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.1); -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.1); box-shadow: 5px 5px 10px rgba(0,0,0,0.1);}
+.dropshadow20 { -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.2); -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.2); box-shadow: 5px 5px 10px rgba(0,0,0,0.2);}
+.dropshadow30 { -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.3); -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.3); box-shadow: 5px 5px 10px rgba(0,0,0,0.3);}
+.dropshadow40 { -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.4); -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.4); box-shadow: 5px 5px 10px rgba(0,0,0,0.4);}
+.dropshadow50 { -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.5); -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.5); box-shadow: 5px 5px 10px rgba(0,0,0,0.5);}
+.dropshadow60 { -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.6); -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.6); box-shadow: 5px 5px 10px rgba(0,0,0,0.6);}
+.dropshadow70 { -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.7); -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.7); box-shadow: 5px 5px 10px rgba(0,0,0,0.7);}
+.dropshadow80 { -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8); -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.8); box-shadow: 5px 5px 10px rgba(0,0,0,0.8);}
+.dropshadow90 { -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.9); -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.9); box-shadow: 5px 5px 10px rgba(0,0,0,0.9);}
+/* -- End Drop Shadow -- */
+
+/* -- Rotate -- */
+.rotate1 { -webkit-transform: rotate(1deg); -moz-transform: rotate(1deg); -ms-transform: rotate(1deg); -o-transform: rotate(1deg); transform: rotate(1deg);}
+.rotate2 { -webkit-transform: rotate(2deg); -moz-transform: rotate(2deg); -ms-transform: rotate(2deg); -o-transform: rotate(2deg); transform: rotate(2deg);}
+.rotate3 { -webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg);}
+.rotate4 { -webkit-transform: rotate(4deg); -moz-transform: rotate(4deg); -ms-transform: rotate(4deg); -o-transform: rotate(4deg); transform: rotate(4deg);}
+.rotate5 { -webkit-transform: rotate(5deg); -moz-transform: rotate(5deg); -ms-transform: rotate(5deg); -o-transform: rotate(5deg); transform: rotate(5deg);}
+.rotate6 { -webkit-transform: rotate(6deg); -moz-transform: rotate(6deg); -ms-transform: rotate(6deg); -o-transform: rotate(6deg); transform: rotate(6deg);}
+.rotate8 { -webkit-transform: rotate(8deg); -moz-transform: rotate(8deg); -ms-transform: rotate(8deg); -o-transform: rotate(8deg); transform: rotate(8deg);}
+.rotate10 { -webkit-transform: rotate(10deg); -moz-transform: rotate(10deg); -ms-transform: rotate(10deg); -o-transform: rotate(10deg); transform: rotate(10deg);}
+.rotate12 { -webkit-transform: rotate(12deg); -moz-transform: rotate(12deg); -ms-transform: rotate(12deg); -o-transform: rotate(12deg); transform: rotate(12deg);}
+.rotate15 { -webkit-transform: rotate(15deg); -moz-transform: rotate(15deg); -ms-transform: rotate(15deg); -o-transform: rotate(15deg); transform: rotate(15deg);}
+.rotate20 { -webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg);}
+.rotate25 { -webkit-transform: rotate(25deg); -moz-transform: rotate(25deg); -ms-transform: rotate(25deg); -o-transform: rotate(25deg); transform: rotate(25deg);}
+.rotate-1 { -webkit-transform: rotate(-1deg); -moz-transform: rotate(-1deg); -ms-transform: rotate(-1deg); -o-transform: rotate(-1deg); transform: rotate(-1deg);}
+.rotate-2 { -webkit-transform: rotate(-2deg); -moz-transform: rotate(-2deg); -ms-transform: rotate(-2deg); -o-transform: rotate(-2deg); transform: rotate(-2deg);}
+.rotate-3 { -webkit-transform: rotate(-3deg); -moz-transform: rotate(-3deg); -ms-transform: rotate(-3deg); -o-transform: rotate(-3deg); transform: rotate(-3deg);}
+.rotate-4 { -webkit-transform: rotate(-4deg); -moz-transform: rotate(-4deg); -ms-transform: rotate(-4deg); -o-transform: rotate(-4deg); transform: rotate(-4deg);}
+.rotate-5 { -webkit-transform: rotate(-5deg); -moz-transform: rotate(-5deg); -ms-transform: rotate(-5deg); -o-transform: rotate(-5deg); transform: rotate(-5deg);}
+.rotate-6 { -webkit-transform: rotate(-6deg); -moz-transform: rotate(-6deg); -ms-transform: rotate(-6deg); -o-transform: rotate(-6deg); transform: rotate(-6deg);}
+.rotate-8 { -webkit-transform: rotate(-8deg); -moz-transform: rotate(-8deg); -ms-transform: rotate(-8deg); -o-transform: rotate(-8deg); transform: rotate(-8deg);}
+.rotate-10 { -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -ms-transform: rotate(-10deg); -o-transform: rotate(-10deg); transform: rotate(-10deg);}
+.rotate-12 { -webkit-transform: rotate(-12deg); -moz-transform: rotate(-12deg); -ms-transform: rotate(-12deg); -o-transform: rotate(-12deg); transform: rotate(-12deg);}
+.rotate-15 { -webkit-transform: rotate(-15deg); -moz-transform: rotate(-15deg); -ms-transform: rotate(-15deg); -o-transform: rotate(-15deg); transform: rotate(-15deg);}
+.rotate-20 { -webkit-transform: rotate(-20deg); -moz-transform: rotate(-20deg); -ms-transform: rotate(-20deg); -o-transform: rotate(-20deg); transform: rotate(-20deg);}
+.rotate-25 { -webkit-transform: rotate(-25deg); -moz-transform: rotate(-25deg); -ms-transform: rotate(-25deg); -o-transform: rotate(-25deg); transform: rotate(-25deg);}
+/* -- End Rotate -- */
+
+/* -- Scale % -- */
+.scale10 {-webkit-transform: scale(0.1); -moz-transform: scale(0.1); -ms-transform: scale(0.1); -o-transform: scale(0.1); transform: scale(0.1);}
+.scale20 {-webkit-transform: scale(0.2); -moz-transform: scale(0.2); -ms-transform: scale(0.2); -o-transform: scale(0.2); transform: scale(0.2);}
+.scale30 {-webkit-transform: scale(0.3); -moz-transform: scale(0.3); -ms-transform: scale(0.3); -o-transform: scale(0.3); transform: scale(0.3);}
+.scale40 {-webkit-transform: scale(0.4); -moz-transform: scale(0.4); -ms-transform: scale(0.4); -o-transform: scale(0.4); transform: scale(0.4);}
+.scale50 {-webkit-transform: scale(0.5); -moz-transform: scale(0.5); -ms-transform: scale(0.5); -o-transform: scale(0.5); transform: scale(0.5);}
+.scale60 {-webkit-transform: scale(0.6); -moz-transform: scale(0.6); -ms-transform: scale(0.6); -o-transform: scale(0.6); transform: scale(0.6);}
+.scale70 {-webkit-transform: scale(0.7); -moz-transform: scale(0.7); -ms-transform: scale(0.7); -o-transform: scale(0.7); transform: scale(0.7);}
+.scale80 {-webkit-transform: scale(0.8); -moz-transform: scale(0.8); -ms-transform: scale(0.8); -o-transform: scale(0.8); transform: scale(0.8);}
+.scale90 {-webkit-transform: scale(0.9); -moz-transform: scale(0.9); -ms-transform: scale(0.9); -o-transform: scale(0.9); transform: scale(0.9);}
+/* -- Scale % and rotate 1 -- */
+.scale10-rotate1 {-webkit-transform: scale(0.1) rotate(1deg); -moz-transform: scale(0.1) rotate(1deg); -ms-transform: scale(0.1) rotate(1deg); -o-transform: scale(0.1) rotate(1deg); transform: scale(0.1) rotate(1deg);}
+.scale20-rotate1 {-webkit-transform: scale(0.2) rotate(1deg); -moz-transform: scale(0.2) rotate(1deg); -ms-transform: scale(0.2) rotate(1deg); -o-transform: scale(0.2) rotate(1deg); transform: scale(0.2) rotate(1deg);}
+.scale30-rotate1 {-webkit-transform: scale(0.3) rotate(1deg); -moz-transform: scale(0.3) rotate(1deg); -ms-transform: scale(0.3) rotate(1deg); -o-transform: scale(0.3) rotate(1deg); transform: scale(0.3) rotate(1deg);}
+.scale40-rotate1 {-webkit-transform: scale(0.4) rotate(1deg); -moz-transform: scale(0.4) rotate(1deg); -ms-transform: scale(0.4) rotate(1deg); -o-transform: scale(0.4) rotate(1deg); transform: scale(0.4) rotate(1deg);}
+.scale50-rotate1 {-webkit-transform: scale(0.5) rotate(1deg); -moz-transform: scale(0.5) rotate(1deg); -ms-transform: scale(0.5) rotate(1deg); -o-transform: scale(0.5) rotate(1deg); transform: scale(0.5) rotate(1deg);}
+.scale60-rotate1 {-webkit-transform: scale(0.6) rotate(1deg); -moz-transform: scale(0.6) rotate(1deg); -ms-transform: scale(0.6) rotate(1deg); -o-transform: scale(0.6) rotate(1deg); transform: scale(0.6) rotate(1deg);}
+.scale70-rotate1 {-webkit-transform: scale(0.7) rotate(1deg); -moz-transform: scale(0.7) rotate(1deg); -ms-transform: scale(0.7) rotate(1deg); -o-transform: scale(0.7) rotate(1deg); transform: scale(0.7) rotate(1deg);}
+.scale80-rotate1 {-webkit-transform: scale(0.8) rotate(1deg); -moz-transform: scale(0.8) rotate(1deg); -ms-transform: scale(0.8) rotate(1deg); -o-transform: scale(0.8) rotate(1deg); transform: scale(0.8) rotate(1deg);}
+.scale90-rotate1 {-webkit-transform: scale(0.9) rotate(1deg); -moz-transform: scale(0.9) rotate(1deg); -ms-transform: scale(0.9) rotate(1deg); -o-transform: scale(0.9) rotate(1deg); transform: scale(0.9) rotate(1deg);}
+/* -- Scale % and rotate 2 -- */
+.scale10-rotate2 {-webkit-transform: scale(0.1) rotate(2deg); -moz-transform: scale(0.1) rotate(2deg); -ms-transform: scale(0.1) rotate(2deg); -o-transform: scale(0.1) rotate(2deg); transform: scale(0.1) rotate(2deg);}
+.scale20-rotate2 {-webkit-transform: scale(0.2) rotate(2deg); -moz-transform: scale(0.2) rotate(2deg); -ms-transform: scale(0.2) rotate(2deg); -o-transform: scale(0.2) rotate(2deg); transform: scale(0.2) rotate(2deg);}
+.scale30-rotate2 {-webkit-transform: scale(0.3) rotate(2deg); -moz-transform: scale(0.3) rotate(2deg); -ms-transform: scale(0.3) rotate(2deg); -o-transform: scale(0.3) rotate(2deg); transform: scale(0.3) rotate(2deg);}
+.scale40-rotate2 {-webkit-transform: scale(0.4) rotate(2deg); -moz-transform: scale(0.4) rotate(2deg); -ms-transform: scale(0.4) rotate(2deg); -o-transform: scale(0.4) rotate(2deg); transform: scale(0.4) rotate(2deg);}
+.scale50-rotate2 {-webkit-transform: scale(0.5) rotate(2deg); -moz-transform: scale(0.5) rotate(2deg); -ms-transform: scale(0.5) rotate(2deg); -o-transform: scale(0.5) rotate(2deg); transform: scale(0.5) rotate(2deg);}
+.scale60-rotate2 {-webkit-transform: scale(0.6) rotate(2deg); -moz-transform: scale(0.6) rotate(2deg); -ms-transform: scale(0.6) rotate(2deg); -o-transform: scale(0.6) rotate(2deg); transform: scale(0.6) rotate(2deg);}
+.scale70-rotate2 {-webkit-transform: scale(0.7) rotate(2deg); -moz-transform: scale(0.7) rotate(2deg); -ms-transform: scale(0.7) rotate(2deg); -o-transform: scale(0.7) rotate(2deg); transform: scale(0.7) rotate(2deg);}
+.scale80-rotate2 {-webkit-transform: scale(0.8) rotate(2deg); -moz-transform: scale(0.8) rotate(2deg); -ms-transform: scale(0.8) rotate(2deg); -o-transform: scale(0.8) rotate(2deg); transform: scale(0.8) rotate(2deg);}
+.scale90-rotate2 {-webkit-transform: scale(0.9) rotate(2deg); -moz-transform: scale(0.9) rotate(2deg); -ms-transform: scale(0.9) rotate(2deg); -o-transform: scale(0.9) rotate(2deg); transform: scale(0.9) rotate(2deg);}
+/* -- Scale % and rotate 3 -- */
+.scale10-rotate3 {-webkit-transform: scale(0.1) rotate(3deg); -moz-transform: scale(0.1) rotate(3deg); -ms-transform: scale(0.1) rotate(3deg); -o-transform: scale(0.1) rotate(3deg); transform: scale(0.1) rotate(3deg);}
+.scale20-rotate3 {-webkit-transform: scale(0.2) rotate(3deg); -moz-transform: scale(0.2) rotate(3deg); -ms-transform: scale(0.2) rotate(3deg); -o-transform: scale(0.2) rotate(3deg); transform: scale(0.2) rotate(3deg);}
+.scale30-rotate3 {-webkit-transform: scale(0.3) rotate(3deg); -moz-transform: scale(0.3) rotate(3deg); -ms-transform: scale(0.3) rotate(3deg); -o-transform: scale(0.3) rotate(3deg); transform: scale(0.3) rotate(3deg);}
+.scale40-rotate3 {-webkit-transform: scale(0.4) rotate(3deg); -moz-transform: scale(0.4) rotate(3deg); -ms-transform: scale(0.4) rotate(3deg); -o-transform: scale(0.4) rotate(3deg); transform: scale(0.4) rotate(3deg);}
+.scale50-rotate3 {-webkit-transform: scale(0.5) rotate(3deg); -moz-transform: scale(0.5) rotate(3deg); -ms-transform: scale(0.5) rotate(3deg); -o-transform: scale(0.5) rotate(3deg); transform: scale(0.5) rotate(3deg);}
+.scale60-rotate3 {-webkit-transform: scale(0.6) rotate(3deg); -moz-transform: scale(0.6) rotate(3deg); -ms-transform: scale(0.6) rotate(3deg); -o-transform: scale(0.6) rotate(3deg); transform: scale(0.6) rotate(3deg);}
+.scale70-rotate3 {-webkit-transform: scale(0.7) rotate(3deg); -moz-transform: scale(0.7) rotate(3deg); -ms-transform: scale(0.7) rotate(3deg); -o-transform: scale(0.7) rotate(3deg); transform: scale(0.7) rotate(3deg);}
+.scale80-rotate3 {-webkit-transform: scale(0.8) rotate(3deg); -moz-transform: scale(0.8) rotate(3deg); -ms-transform: scale(0.8) rotate(3deg); -o-transform: scale(0.8) rotate(3deg); transform: scale(0.8) rotate(3deg);}
+.scale90-rotate3 {-webkit-transform: scale(0.9) rotate(3deg); -moz-transform: scale(0.9) rotate(3deg); -ms-transform: scale(0.9) rotate(3deg); -o-transform: scale(0.9) rotate(3deg); transform: scale(0.9) rotate(3deg);}
+/* -- Scale % and rotate 4 -- */
+.scale10-rotate4 {-webkit-transform: scale(0.1) rotate(4deg); -moz-transform: scale(0.1) rotate(4deg); -ms-transform: scale(0.1) rotate(4deg); -o-transform: scale(0.1) rotate(4deg); transform: scale(0.1) rotate(4deg);}
+.scale20-rotate4 {-webkit-transform: scale(0.2) rotate(4deg); -moz-transform: scale(0.2) rotate(4deg); -ms-transform: scale(0.2) rotate(4deg); -o-transform: scale(0.2) rotate(4deg); transform: scale(0.2) rotate(4deg);}
+.scale30-rotate4 {-webkit-transform: scale(0.3) rotate(4deg); -moz-transform: scale(0.3) rotate(4deg); -ms-transform: scale(0.3) rotate(4deg); -o-transform: scale(0.3) rotate(4deg); transform: scale(0.3) rotate(4deg);}
+.scale40-rotate4 {-webkit-transform: scale(0.4) rotate(4deg); -moz-transform: scale(0.4) rotate(4deg); -ms-transform: scale(0.4) rotate(4deg); -o-transform: scale(0.4) rotate(4deg); transform: scale(0.4) rotate(4deg);}
+.scale50-rotate4 {-webkit-transform: scale(0.5) rotate(4deg); -moz-transform: scale(0.5) rotate(4deg); -ms-transform: scale(0.5) rotate(4deg); -o-transform: scale(0.5) rotate(4deg); transform: scale(0.5) rotate(4deg);}
+.scale60-rotate4 {-webkit-transform: scale(0.6) rotate(4deg); -moz-transform: scale(0.6) rotate(4deg); -ms-transform: scale(0.6) rotate(4deg); -o-transform: scale(0.6) rotate(4deg); transform: scale(0.6) rotate(4deg);}
+.scale70-rotate4 {-webkit-transform: scale(0.7) rotate(4deg); -moz-transform: scale(0.7) rotate(4deg); -ms-transform: scale(0.7) rotate(4deg); -o-transform: scale(0.7) rotate(4deg); transform: scale(0.7) rotate(4deg);}
+.scale80-rotate4 {-webkit-transform: scale(0.8) rotate(4deg); -moz-transform: scale(0.8) rotate(4deg); -ms-transform: scale(0.8) rotate(4deg); -o-transform: scale(0.8) rotate(4deg); transform: scale(0.8) rotate(4deg);}
+.scale90-rotate4 {-webkit-transform: scale(0.9) rotate(4deg); -moz-transform: scale(0.9) rotate(4deg); -ms-transform: scale(0.9) rotate(4deg); -o-transform: scale(0.9) rotate(4deg); transform: scale(0.9) rotate(4deg);}
+/* -- Scale % and rotate 5 -- */
+.scale10-rotate5 {-webkit-transform: scale(0.1) rotate(5deg); -moz-transform: scale(0.1) rotate(5deg); -ms-transform: scale(0.1) rotate(5deg); -o-transform: scale(0.1) rotate(5deg); transform: scale(0.1) rotate(5deg);}
+.scale20-rotate5 {-webkit-transform: scale(0.2) rotate(5deg); -moz-transform: scale(0.2) rotate(5deg); -ms-transform: scale(0.2) rotate(5deg); -o-transform: scale(0.2) rotate(5deg); transform: scale(0.2) rotate(5deg);}
+.scale30-rotate5 {-webkit-transform: scale(0.3) rotate(5deg); -moz-transform: scale(0.3) rotate(5deg); -ms-transform: scale(0.3) rotate(5deg); -o-transform: scale(0.3) rotate(5deg); transform: scale(0.3) rotate(5deg);}
+.scale40-rotate5 {-webkit-transform: scale(0.4) rotate(5deg); -moz-transform: scale(0.4) rotate(5deg); -ms-transform: scale(0.4) rotate(5deg); -o-transform: scale(0.4) rotate(5deg); transform: scale(0.4) rotate(5deg);}
+.scale50-rotate5 {-webkit-transform: scale(0.5) rotate(5deg); -moz-transform: scale(0.5) rotate(5deg); -ms-transform: scale(0.5) rotate(5deg); -o-transform: scale(0.5) rotate(5deg); transform: scale(0.5) rotate(5deg);}
+.scale60-rotate5 {-webkit-transform: scale(0.6) rotate(5deg); -moz-transform: scale(0.6) rotate(5deg); -ms-transform: scale(0.6) rotate(5deg); -o-transform: scale(0.6) rotate(5deg); transform: scale(0.6) rotate(5deg);}
+.scale70-rotate5 {-webkit-transform: scale(0.7) rotate(5deg); -moz-transform: scale(0.7) rotate(5deg); -ms-transform: scale(0.7) rotate(5deg); -o-transform: scale(0.7) rotate(5deg); transform: scale(0.7) rotate(5deg);}
+.scale80-rotate5 {-webkit-transform: scale(0.8) rotate(5deg); -moz-transform: scale(0.8) rotate(5deg); -ms-transform: scale(0.8) rotate(5deg); -o-transform: scale(0.8) rotate(5deg); transform: scale(0.8) rotate(5deg);}
+.scale90-rotate5 {-webkit-transform: scale(0.9) rotate(5deg); -moz-transform: scale(0.9) rotate(5deg); -ms-transform: scale(0.9) rotate(5deg); -o-transform: scale(0.9) rotate(5deg); transform: scale(0.9) rotate(5deg);}
+/* -- Scale % and rotate 6 -- */
+.scale10-rotate6 {-webkit-transform: scale(0.1) rotate(6deg); -moz-transform: scale(0.1) rotate(6deg); -ms-transform: scale(0.1) rotate(6deg); -o-transform: scale(0.1) rotate(6deg); transform: scale(0.1) rotate(6deg);}
+.scale20-rotate6 {-webkit-transform: scale(0.2) rotate(6deg); -moz-transform: scale(0.2) rotate(6deg); -ms-transform: scale(0.2) rotate(6deg); -o-transform: scale(0.2) rotate(6deg); transform: scale(0.2) rotate(6deg);}
+.scale30-rotate6 {-webkit-transform: scale(0.3) rotate(6deg); -moz-transform: scale(0.3) rotate(6deg); -ms-transform: scale(0.3) rotate(6deg); -o-transform: scale(0.3) rotate(6deg); transform: scale(0.3) rotate(6deg);}
+.scale40-rotate6 {-webkit-transform: scale(0.4) rotate(6deg); -moz-transform: scale(0.4) rotate(6deg); -ms-transform: scale(0.4) rotate(6deg); -o-transform: scale(0.4) rotate(6deg); transform: scale(0.4) rotate(6deg);}
+.scale50-rotate6 {-webkit-transform: scale(0.5) rotate(6deg); -moz-transform: scale(0.5) rotate(6deg); -ms-transform: scale(0.5) rotate(6deg); -o-transform: scale(0.5) rotate(6deg); transform: scale(0.5) rotate(6deg);}
+.scale60-rotate6 {-webkit-transform: scale(0.6) rotate(6deg); -moz-transform: scale(0.6) rotate(6deg); -ms-transform: scale(0.6) rotate(6deg); -o-transform: scale(0.6) rotate(6deg); transform: scale(0.6) rotate(6deg);}
+.scale70-rotate6 {-webkit-transform: scale(0.7) rotate(6deg); -moz-transform: scale(0.7) rotate(6deg); -ms-transform: scale(0.7) rotate(6deg); -o-transform: scale(0.7) rotate(6deg); transform: scale(0.7) rotate(6deg);}
+.scale80-rotate6 {-webkit-transform: scale(0.8) rotate(6deg); -moz-transform: scale(0.8) rotate(6deg); -ms-transform: scale(0.8) rotate(6deg); -o-transform: scale(0.8) rotate(6deg); transform: scale(0.8) rotate(6deg);}
+.scale90-rotate6 {-webkit-transform: scale(0.9) rotate(6deg); -moz-transform: scale(0.9) rotate(6deg); -ms-transform: scale(0.9) rotate(6deg); -o-transform: scale(0.9) rotate(6deg); transform: scale(0.9) rotate(6deg);}
+/* -- Scale % and rotate 8 -- */
+.scale10-rotate8 {-webkit-transform: scale(0.1) rotate(8deg); -moz-transform: scale(0.1) rotate(8deg); -ms-transform: scale(0.1) rotate(8deg); -o-transform: scale(0.1) rotate(8deg); transform: scale(0.1) rotate(8deg);}
+.scale20-rotate8 {-webkit-transform: scale(0.2) rotate(8deg); -moz-transform: scale(0.2) rotate(8deg); -ms-transform: scale(0.2) rotate(8deg); -o-transform: scale(0.2) rotate(8deg); transform: scale(0.2) rotate(8deg);}
+.scale30-rotate8 {-webkit-transform: scale(0.3) rotate(8deg); -moz-transform: scale(0.3) rotate(8deg); -ms-transform: scale(0.3) rotate(8deg); -o-transform: scale(0.3) rotate(8deg); transform: scale(0.3) rotate(8deg);}
+.scale40-rotate8 {-webkit-transform: scale(0.4) rotate(8deg); -moz-transform: scale(0.4) rotate(8deg); -ms-transform: scale(0.4) rotate(8deg); -o-transform: scale(0.4) rotate(8deg); transform: scale(0.4) rotate(8deg);}
+.scale50-rotate8 {-webkit-transform: scale(0.5) rotate(8deg); -moz-transform: scale(0.5) rotate(8deg); -ms-transform: scale(0.5) rotate(8deg); -o-transform: scale(0.5) rotate(8deg); transform: scale(0.5) rotate(8deg);}
+.scale60-rotate8 {-webkit-transform: scale(0.6) rotate(8deg); -moz-transform: scale(0.6) rotate(8deg); -ms-transform: scale(0.6) rotate(8deg); -o-transform: scale(0.6) rotate(8deg); transform: scale(0.6) rotate(8deg);}
+.scale70-rotate8 {-webkit-transform: scale(0.7) rotate(8deg); -moz-transform: scale(0.7) rotate(8deg); -ms-transform: scale(0.7) rotate(8deg); -o-transform: scale(0.7) rotate(8deg); transform: scale(0.7) rotate(8deg);}
+.scale80-rotate8 {-webkit-transform: scale(0.8) rotate(8deg); -moz-transform: scale(0.8) rotate(8deg); -ms-transform: scale(0.8) rotate(8deg); -o-transform: scale(0.8) rotate(8deg); transform: scale(0.8) rotate(8deg);}
+.scale90-rotate8 {-webkit-transform: scale(0.9) rotate(8deg); -moz-transform: scale(0.9) rotate(8deg); -ms-transform: scale(0.9) rotate(8deg); -o-transform: scale(0.9) rotate(8deg); transform: scale(0.9) rotate(8deg);}
+/* -- Scale % and rotate 10 -- */
+.scale10-rotate10 {-webkit-transform: scale(0.1) rotate(10deg); -moz-transform: scale(0.1) rotate(10deg); -ms-transform: scale(0.1) rotate(10deg); -o-transform: scale(0.1) rotate(10deg); transform: scale(0.1) rotate(10deg);}
+.scale20-rotate10 {-webkit-transform: scale(0.2) rotate(10deg); -moz-transform: scale(0.2) rotate(10deg); -ms-transform: scale(0.2) rotate(10deg); -o-transform: scale(0.2) rotate(10deg); transform: scale(0.2) rotate(10deg);}
+.scale30-rotate10 {-webkit-transform: scale(0.3) rotate(10deg); -moz-transform: scale(0.3) rotate(10deg); -ms-transform: scale(0.3) rotate(10deg); -o-transform: scale(0.3) rotate(10deg); transform: scale(0.3) rotate(10deg);}
+.scale40-rotate10 {-webkit-transform: scale(0.4) rotate(10deg); -moz-transform: scale(0.4) rotate(10deg); -ms-transform: scale(0.4) rotate(10deg); -o-transform: scale(0.4) rotate(10deg); transform: scale(0.4) rotate(10deg);}
+.scale50-rotate10 {-webkit-transform: scale(0.5) rotate(10deg); -moz-transform: scale(0.5) rotate(10deg); -ms-transform: scale(0.5) rotate(10deg); -o-transform: scale(0.5) rotate(10deg); transform: scale(0.5) rotate(10deg);}
+.scale60-rotate10 {-webkit-transform: scale(0.6) rotate(10deg); -moz-transform: scale(0.6) rotate(10deg); -ms-transform: scale(0.6) rotate(10deg); -o-transform: scale(0.6) rotate(10deg); transform: scale(0.6) rotate(10deg);}
+.scale70-rotate10 {-webkit-transform: scale(0.7) rotate(10deg); -moz-transform: scale(0.7) rotate(10deg); -ms-transform: scale(0.7) rotate(10deg); -o-transform: scale(0.7) rotate(10deg); transform: scale(0.7) rotate(10deg);}
+.scale80-rotate10 {-webkit-transform: scale(0.8) rotate(10deg); -moz-transform: scale(0.8) rotate(10deg); -ms-transform: scale(0.8) rotate(10deg); -o-transform: scale(0.8) rotate(10deg); transform: scale(0.8) rotate(10deg);}
+.scale90-rotate10 {-webkit-transform: scale(0.9) rotate(10deg); -moz-transform: scale(0.9) rotate(10deg); -ms-transform: scale(0.9) rotate(10deg); -o-transform: scale(0.9) rotate(10deg); transform: scale(0.9) rotate(10deg);}
+/* -- Scale % and rotate 15 -- */
+.scale10-rotate15 {-webkit-transform: scale(0.1) rotate(15deg); -moz-transform: scale(0.1) rotate(15deg); -ms-transform: scale(0.1) rotate(15deg); -o-transform: scale(0.1) rotate(15deg); transform: scale(0.1) rotate(15deg);}
+.scale20-rotate15 {-webkit-transform: scale(0.2) rotate(15deg); -moz-transform: scale(0.2) rotate(15deg); -ms-transform: scale(0.2) rotate(15deg); -o-transform: scale(0.2) rotate(15deg); transform: scale(0.2) rotate(15deg);}
+.scale30-rotate15 {-webkit-transform: scale(0.3) rotate(15deg); -moz-transform: scale(0.3) rotate(15deg); -ms-transform: scale(0.3) rotate(15deg); -o-transform: scale(0.3) rotate(15deg); transform: scale(0.3) rotate(15deg);}
+.scale40-rotate15 {-webkit-transform: scale(0.4) rotate(15deg); -moz-transform: scale(0.4) rotate(15deg); -ms-transform: scale(0.4) rotate(15deg); -o-transform: scale(0.4) rotate(15deg); transform: scale(0.4) rotate(15deg);}
+.scale50-rotate15 {-webkit-transform: scale(0.5) rotate(15deg); -moz-transform: scale(0.5) rotate(15deg); -ms-transform: scale(0.5) rotate(15deg); -o-transform: scale(0.5) rotate(15deg); transform: scale(0.5) rotate(15deg);}
+.scale60-rotate15 {-webkit-transform: scale(0.6) rotate(15deg); -moz-transform: scale(0.6) rotate(15deg); -ms-transform: scale(0.6) rotate(15deg); -o-transform: scale(0.6) rotate(15deg); transform: scale(0.6) rotate(15deg);}
+.scale70-rotate15 {-webkit-transform: scale(0.7) rotate(15deg); -moz-transform: scale(0.7) rotate(15deg); -ms-transform: scale(0.7) rotate(15deg); -o-transform: scale(0.7) rotate(15deg); transform: scale(0.7) rotate(15deg);}
+.scale80-rotate15 {-webkit-transform: scale(0.8) rotate(15deg); -moz-transform: scale(0.8) rotate(15deg); -ms-transform: scale(0.8) rotate(15deg); -o-transform: scale(0.8) rotate(15deg); transform: scale(0.8) rotate(15deg);}
+.scale90-rotate15 {-webkit-transform: scale(0.9) rotate(15deg); -moz-transform: scale(0.9) rotate(15deg); -ms-transform: scale(0.9) rotate(15deg); -o-transform: scale(0.9) rotate(15deg); transform: scale(0.9) rotate(15deg);}
+/* -- Scale % and rotate 20 -- */
+.scale10-rotate20 {-webkit-transform: scale(0.1) rotate(20deg); -moz-transform: scale(0.1) rotate(20deg); -ms-transform: scale(0.1) rotate(20deg); -o-transform: scale(0.1) rotate(20deg); transform: scale(0.1) rotate(20deg);}
+.scale20-rotate20 {-webkit-transform: scale(0.2) rotate(20deg); -moz-transform: scale(0.2) rotate(20deg); -ms-transform: scale(0.2) rotate(20deg); -o-transform: scale(0.2) rotate(20deg); transform: scale(0.2) rotate(20deg);}
+.scale30-rotate20 {-webkit-transform: scale(0.3) rotate(20deg); -moz-transform: scale(0.3) rotate(20deg); -ms-transform: scale(0.3) rotate(20deg); -o-transform: scale(0.3) rotate(20deg); transform: scale(0.3) rotate(20deg);}
+.scale40-rotate20 {-webkit-transform: scale(0.4) rotate(20deg); -moz-transform: scale(0.4) rotate(20deg); -ms-transform: scale(0.4) rotate(20deg); -o-transform: scale(0.4) rotate(20deg); transform: scale(0.4) rotate(20deg);}
+.scale50-rotate20 {-webkit-transform: scale(0.5) rotate(20deg); -moz-transform: scale(0.5) rotate(20deg); -ms-transform: scale(0.5) rotate(20deg); -o-transform: scale(0.5) rotate(20deg); transform: scale(0.5) rotate(20deg);}
+.scale60-rotate20 {-webkit-transform: scale(0.6) rotate(20deg); -moz-transform: scale(0.6) rotate(20deg); -ms-transform: scale(0.6) rotate(20deg); -o-transform: scale(0.6) rotate(20deg); transform: scale(0.6) rotate(20deg);}
+.scale70-rotate20 {-webkit-transform: scale(0.7) rotate(20deg); -moz-transform: scale(0.7) rotate(20deg); -ms-transform: scale(0.7) rotate(20deg); -o-transform: scale(0.7) rotate(20deg); transform: scale(0.7) rotate(20deg);}
+.scale80-rotate20 {-webkit-transform: scale(0.8) rotate(20deg); -moz-transform: scale(0.8) rotate(20deg); -ms-transform: scale(0.8) rotate(20deg); -o-transform: scale(0.8) rotate(20deg); transform: scale(0.8) rotate(20deg);}
+.scale90-rotate20 {-webkit-transform: scale(0.9) rotate(20deg); -moz-transform: scale(0.9) rotate(20deg); -ms-transform: scale(0.9) rotate(20deg); -o-transform: scale(0.9) rotate(20deg); transform: scale(0.9) rotate(20deg);}
+/* -- Scale % and rotate 25 -- */
+.scale10-rotate20 {-webkit-transform: scale(0.1) rotate(25deg); -moz-transform: scale(0.1) rotate(25deg); -ms-transform: scale(0.1) rotate(25deg); -o-transform: scale(0.1) rotate(25deg); transform: scale(0.1) rotate(25deg);}
+.scale20-rotate20 {-webkit-transform: scale(0.2) rotate(25deg); -moz-transform: scale(0.2) rotate(25deg); -ms-transform: scale(0.2) rotate(25deg); -o-transform: scale(0.2) rotate(25deg); transform: scale(0.2) rotate(25deg);}
+.scale30-rotate20 {-webkit-transform: scale(0.3) rotate(25deg); -moz-transform: scale(0.3) rotate(25deg); -ms-transform: scale(0.3) rotate(25deg); -o-transform: scale(0.3) rotate(25deg); transform: scale(0.3) rotate(25deg);}
+.scale40-rotate20 {-webkit-transform: scale(0.4) rotate(25deg); -moz-transform: scale(0.4) rotate(25deg); -ms-transform: scale(0.4) rotate(25deg); -o-transform: scale(0.4) rotate(25deg); transform: scale(0.4) rotate(25deg);}
+.scale50-rotate20 {-webkit-transform: scale(0.5) rotate(25deg); -moz-transform: scale(0.5) rotate(25deg); -ms-transform: scale(0.5) rotate(25deg); -o-transform: scale(0.5) rotate(25deg); transform: scale(0.5) rotate(25deg);}
+.scale60-rotate20 {-webkit-transform: scale(0.6) rotate(25deg); -moz-transform: scale(0.6) rotate(25deg); -ms-transform: scale(0.6) rotate(25deg); -o-transform: scale(0.6) rotate(25deg); transform: scale(0.6) rotate(25deg);}
+.scale70-rotate20 {-webkit-transform: scale(0.7) rotate(25deg); -moz-transform: scale(0.7) rotate(25deg); -ms-transform: scale(0.7) rotate(25deg); -o-transform: scale(0.7) rotate(25deg); transform: scale(0.7) rotate(25deg);}
+.scale80-rotate20 {-webkit-transform: scale(0.8) rotate(25deg); -moz-transform: scale(0.8) rotate(25deg); -ms-transform: scale(0.8) rotate(25deg); -o-transform: scale(0.8) rotate(25deg); transform: scale(0.8) rotate(25deg);}
+.scale90-rotate20 {-webkit-transform: scale(0.9) rotate(25deg); -moz-transform: scale(0.9) rotate(25deg); -ms-transform: scale(0.9) rotate(25deg); -o-transform: scale(0.9) rotate(25deg); transform: scale(0.9) rotate(25deg);}
+/* -- End Scale and Rotate -- */
+
+
+/* -- Scale % and rotate 1 -- */
+.scale10-rotate-1 {-webkit-transform: scale(0.1) rotate(-1deg); -moz-transform: scale(0.1) rotate(-1deg); -ms-transform: scale(0.1) rotate(-1deg); -o-transform: scale(0.1) rotate(-1deg); transform: scale(0.1) rotate(-1deg);}
+.scale20-rotate-1 {-webkit-transform: scale(0.2) rotate(-1deg); -moz-transform: scale(0.2) rotate(-1deg); -ms-transform: scale(0.2) rotate(-1deg); -o-transform: scale(0.2) rotate(-1deg); transform: scale(0.2) rotate(-1deg);}
+.scale30-rotate-1 {-webkit-transform: scale(0.3) rotate(-1deg); -moz-transform: scale(0.3) rotate(-1deg); -ms-transform: scale(0.3) rotate(-1deg); -o-transform: scale(0.3) rotate(-1deg); transform: scale(0.3) rotate(-1deg);}
+.scale40-rotate-1 {-webkit-transform: scale(0.4) rotate(-1deg); -moz-transform: scale(0.4) rotate(-1deg); -ms-transform: scale(0.4) rotate(-1deg); -o-transform: scale(0.4) rotate(-1deg); transform: scale(0.4) rotate(-1deg);}
+.scale50-rotate-1 {-webkit-transform: scale(0.5) rotate(-1deg); -moz-transform: scale(0.5) rotate(-1deg); -ms-transform: scale(0.5) rotate(-1deg); -o-transform: scale(0.5) rotate(-1deg); transform: scale(0.5) rotate(-1deg);}
+.scale60-rotate-1 {-webkit-transform: scale(0.6) rotate(-1deg); -moz-transform: scale(0.6) rotate(-1deg); -ms-transform: scale(0.6) rotate(-1deg); -o-transform: scale(0.6) rotate(-1deg); transform: scale(0.6) rotate(-1deg);}
+.scale70-rotate-1 {-webkit-transform: scale(0.7) rotate(-1deg); -moz-transform: scale(0.7) rotate(-1deg); -ms-transform: scale(0.7) rotate(-1deg); -o-transform: scale(0.7) rotate(-1deg); transform: scale(0.7) rotate(-1deg);}
+.scale80-rotate-1 {-webkit-transform: scale(0.8) rotate(-1deg); -moz-transform: scale(0.8) rotate(-1deg); -ms-transform: scale(0.8) rotate(-1deg); -o-transform: scale(0.8) rotate(-1deg); transform: scale(0.8) rotate(-1deg);}
+.scale90-rotate-1 {-webkit-transform: scale(0.9) rotate(-1deg); -moz-transform: scale(0.9) rotate(-1deg); -ms-transform: scale(0.9) rotate(-1deg); -o-transform: scale(0.9) rotate(-1deg); transform: scale(0.9) rotate(-1deg);}
+/* -- Scale % and rotate 2 -- */
+.scale10-rotate-2 {-webkit-transform: scale(0.1) rotate(-2deg); -moz-transform: scale(0.1) rotate(-2deg); -ms-transform: scale(0.1) rotate(-2deg); -o-transform: scale(0.1) rotate(-2deg); transform: scale(0.1) rotate(-2deg);}
+.scale20-rotate-2 {-webkit-transform: scale(0.2) rotate(-2deg); -moz-transform: scale(0.2) rotate(-2deg); -ms-transform: scale(0.2) rotate(-2deg); -o-transform: scale(0.2) rotate(-2deg); transform: scale(0.2) rotate(-2deg);}
+.scale30-rotate-2 {-webkit-transform: scale(0.3) rotate(-2deg); -moz-transform: scale(0.3) rotate(-2deg); -ms-transform: scale(0.3) rotate(-2deg); -o-transform: scale(0.3) rotate(-2deg); transform: scale(0.3) rotate(-2deg);}
+.scale40-rotate-2 {-webkit-transform: scale(0.4) rotate(-2deg); -moz-transform: scale(0.4) rotate(-2deg); -ms-transform: scale(0.4) rotate(-2deg); -o-transform: scale(0.4) rotate(-2deg); transform: scale(0.4) rotate(-2deg);}
+.scale50-rotate-2 {-webkit-transform: scale(0.5) rotate(-2deg); -moz-transform: scale(0.5) rotate(-2deg); -ms-transform: scale(0.5) rotate(-2deg); -o-transform: scale(0.5) rotate(-2deg); transform: scale(0.5) rotate(-2deg);}
+.scale60-rotate-2 {-webkit-transform: scale(0.6) rotate(-2deg); -moz-transform: scale(0.6) rotate(-2deg); -ms-transform: scale(0.6) rotate(-2deg); -o-transform: scale(0.6) rotate(-2deg); transform: scale(0.6) rotate(-2deg);}
+.scale70-rotate-2 {-webkit-transform: scale(0.7) rotate(-2deg); -moz-transform: scale(0.7) rotate(-2deg); -ms-transform: scale(0.7) rotate(-2deg); -o-transform: scale(0.7) rotate(-2deg); transform: scale(0.7) rotate(-2deg);}
+.scale80-rotate-2 {-webkit-transform: scale(0.8) rotate(-2deg); -moz-transform: scale(0.8) rotate(-2deg); -ms-transform: scale(0.8) rotate(-2deg); -o-transform: scale(0.8) rotate(-2deg); transform: scale(0.8) rotate(-2deg);}
+.scale90-rotate-2 {-webkit-transform: scale(0.9) rotate(-2deg); -moz-transform: scale(0.9) rotate(-2deg); -ms-transform: scale(0.9) rotate(-2deg); -o-transform: scale(0.9) rotate(-2deg); transform: scale(0.9) rotate(-2deg);}
+/* -- Scale % and rotate 3 -- */
+.scale10-rotate-3 {-webkit-transform: scale(0.1) rotate(-3deg); -moz-transform: scale(0.1) rotate(-3deg); -ms-transform: scale(0.1) rotate(-3deg); -o-transform: scale(0.1) rotate(-3deg); transform: scale(0.1) rotate(-3deg);}
+.scale20-rotate-3 {-webkit-transform: scale(0.2) rotate(-3deg); -moz-transform: scale(0.2) rotate(-3deg); -ms-transform: scale(0.2) rotate(-3deg); -o-transform: scale(0.2) rotate(-3deg); transform: scale(0.2) rotate(-3deg);}
+.scale30-rotate-3 {-webkit-transform: scale(0.3) rotate(-3deg); -moz-transform: scale(0.3) rotate(-3deg); -ms-transform: scale(0.3) rotate(-3deg); -o-transform: scale(0.3) rotate(-3deg); transform: scale(0.3) rotate(-3deg);}
+.scale40-rotate-3 {-webkit-transform: scale(0.4) rotate(-3deg); -moz-transform: scale(0.4) rotate(-3deg); -ms-transform: scale(0.4) rotate(-3deg); -o-transform: scale(0.4) rotate(-3deg); transform: scale(0.4) rotate(-3deg);}
+.scale50-rotate-3 {-webkit-transform: scale(0.5) rotate(-3deg); -moz-transform: scale(0.5) rotate(-3deg); -ms-transform: scale(0.5) rotate(-3deg); -o-transform: scale(0.5) rotate(-3deg); transform: scale(0.5) rotate(-3deg);}
+.scale60-rotate-3 {-webkit-transform: scale(0.6) rotate(-3deg); -moz-transform: scale(0.6) rotate(-3deg); -ms-transform: scale(0.6) rotate(-3deg); -o-transform: scale(0.6) rotate(-3deg); transform: scale(0.6) rotate(-3deg);}
+.scale70-rotate-3 {-webkit-transform: scale(0.7) rotate(-3deg); -moz-transform: scale(0.7) rotate(-3deg); -ms-transform: scale(0.7) rotate(-3deg); -o-transform: scale(0.7) rotate(-3deg); transform: scale(0.7) rotate(-3deg);}
+.scale80-rotate-3 {-webkit-transform: scale(0.8) rotate(-3deg); -moz-transform: scale(0.8) rotate(-3deg); -ms-transform: scale(0.8) rotate(-3deg); -o-transform: scale(0.8) rotate(-3deg); transform: scale(0.8) rotate(-3deg);}
+.scale90-rotate-3 {-webkit-transform: scale(0.9) rotate(-3deg); -moz-transform: scale(0.9) rotate(-3deg); -ms-transform: scale(0.9) rotate(-3deg); -o-transform: scale(0.9) rotate(-3deg); transform: scale(0.9) rotate(-3deg);}
+/* -- Scale % and rotate 4 -- */
+.scale10-rotate-4 {-webkit-transform: scale(0.1) rotate(-4deg); -moz-transform: scale(0.1) rotate(-4deg); -ms-transform: scale(0.1) rotate(-4deg); -o-transform: scale(0.1) rotate(-4deg); transform: scale(0.1) rotate(-4deg);}
+.scale20-rotate-4 {-webkit-transform: scale(0.2) rotate(-4deg); -moz-transform: scale(0.2) rotate(-4deg); -ms-transform: scale(0.2) rotate(-4deg); -o-transform: scale(0.2) rotate(-4deg); transform: scale(0.2) rotate(-4deg);}
+.scale30-rotate-4 {-webkit-transform: scale(0.3) rotate(-4deg); -moz-transform: scale(0.3) rotate(-4deg); -ms-transform: scale(0.3) rotate(-4deg); -o-transform: scale(0.3) rotate(-4deg); transform: scale(0.3) rotate(-4deg);}
+.scale40-rotate-4 {-webkit-transform: scale(0.4) rotate(-4deg); -moz-transform: scale(0.4) rotate(-4deg); -ms-transform: scale(0.4) rotate(-4deg); -o-transform: scale(0.4) rotate(-4deg); transform: scale(0.4) rotate(-4deg);}
+.scale50-rotate-4 {-webkit-transform: scale(0.5) rotate(-4deg); -moz-transform: scale(0.5) rotate(-4deg); -ms-transform: scale(0.5) rotate(-4deg); -o-transform: scale(0.5) rotate(-4deg); transform: scale(0.5) rotate(-4deg);}
+.scale60-rotate-4 {-webkit-transform: scale(0.6) rotate(-4deg); -moz-transform: scale(0.6) rotate(-4deg); -ms-transform: scale(0.6) rotate(-4deg); -o-transform: scale(0.6) rotate(-4deg); transform: scale(0.6) rotate(-4deg);}
+.scale70-rotate-4 {-webkit-transform: scale(0.7) rotate(-4deg); -moz-transform: scale(0.7) rotate(-4deg); -ms-transform: scale(0.7) rotate(-4deg); -o-transform: scale(0.7) rotate(-4deg); transform: scale(0.7) rotate(-4deg);}
+.scale80-rotate-4 {-webkit-transform: scale(0.8) rotate(-4deg); -moz-transform: scale(0.8) rotate(-4deg); -ms-transform: scale(0.8) rotate(-4deg); -o-transform: scale(0.8) rotate(-4deg); transform: scale(0.8) rotate(-4deg);}
+.scale90-rotate-4 {-webkit-transform: scale(0.9) rotate(-4deg); -moz-transform: scale(0.9) rotate(-4deg); -ms-transform: scale(0.9) rotate(-4deg); -o-transform: scale(0.9) rotate(-4deg); transform: scale(0.9) rotate(-4deg);}
+/* -- Scale % and rotate 4 -- */
+.scale10-rotate-5 {-webkit-transform: scale(0.1) rotate(-5deg); -moz-transform: scale(0.1) rotate(-5deg); -ms-transform: scale(0.1) rotate(-5deg); -o-transform: scale(0.1) rotate(-5deg); transform: scale(0.1) rotate(-5deg);}
+.scale20-rotate-5 {-webkit-transform: scale(0.2) rotate(-5deg); -moz-transform: scale(0.2) rotate(-5deg); -ms-transform: scale(0.2) rotate(-5deg); -o-transform: scale(0.2) rotate(-5deg); transform: scale(0.2) rotate(-5deg);}
+.scale30-rotate-5 {-webkit-transform: scale(0.3) rotate(-5deg); -moz-transform: scale(0.3) rotate(-5deg); -ms-transform: scale(0.3) rotate(-5deg); -o-transform: scale(0.3) rotate(-5deg); transform: scale(0.3) rotate(-5deg);}
+.scale40-rotate-5 {-webkit-transform: scale(0.4) rotate(-5deg); -moz-transform: scale(0.4) rotate(-5deg); -ms-transform: scale(0.4) rotate(-5deg); -o-transform: scale(0.4) rotate(-5deg); transform: scale(0.4) rotate(-5deg);}
+.scale50-rotate-5 {-webkit-transform: scale(0.5) rotate(-5deg); -moz-transform: scale(0.5) rotate(-5deg); -ms-transform: scale(0.5) rotate(-5deg); -o-transform: scale(0.5) rotate(-5deg); transform: scale(0.5) rotate(-5deg);}
+.scale60-rotate-5 {-webkit-transform: scale(0.6) rotate(-5deg); -moz-transform: scale(0.6) rotate(-5deg); -ms-transform: scale(0.6) rotate(-5deg); -o-transform: scale(0.6) rotate(-5deg); transform: scale(0.6) rotate(-5deg);}
+.scale70-rotate-5 {-webkit-transform: scale(0.7) rotate(-5deg); -moz-transform: scale(0.7) rotate(-5deg); -ms-transform: scale(0.7) rotate(-5deg); -o-transform: scale(0.7) rotate(-5deg); transform: scale(0.7) rotate(-5deg);}
+.scale80-rotate-5 {-webkit-transform: scale(0.8) rotate(-5deg); -moz-transform: scale(0.8) rotate(-5deg); -ms-transform: scale(0.8) rotate(-5deg); -o-transform: scale(0.8) rotate(-5deg); transform: scale(0.8) rotate(-5deg);}
+.scale90-rotate-5 {-webkit-transform: scale(0.9) rotate(-5deg); -moz-transform: scale(0.9) rotate(-5deg); -ms-transform: scale(0.9) rotate(-5deg); -o-transform: scale(0.9) rotate(-5deg); transform: scale(0.9) rotate(-5deg);}
+/* -- Scale % and rotate 6 -- */
+.scale10-rotate-6 {-webkit-transform: scale(0.1) rotate(-6deg); -moz-transform: scale(0.1) rotate(-6deg); -ms-transform: scale(0.1) rotate(-6deg); -o-transform: scale(0.1) rotate(-6deg); transform: scale(0.1) rotate(-6deg);}
+.scale20-rotate-6 {-webkit-transform: scale(0.2) rotate(-6deg); -moz-transform: scale(0.2) rotate(-6deg); -ms-transform: scale(0.2) rotate(-6deg); -o-transform: scale(0.2) rotate(-6deg); transform: scale(0.2) rotate(-6deg);}
+.scale30-rotate-6 {-webkit-transform: scale(0.3) rotate(-6deg); -moz-transform: scale(0.3) rotate(-6deg); -ms-transform: scale(0.3) rotate(-6deg); -o-transform: scale(0.3) rotate(-6deg); transform: scale(0.3) rotate(-6deg);}
+.scale40-rotate-6 {-webkit-transform: scale(0.4) rotate(-6deg); -moz-transform: scale(0.4) rotate(-6deg); -ms-transform: scale(0.4) rotate(-6deg); -o-transform: scale(0.4) rotate(-6deg); transform: scale(0.4) rotate(-6deg);}
+.scale50-rotate-6 {-webkit-transform: scale(0.5) rotate(-6deg); -moz-transform: scale(0.5) rotate(-6deg); -ms-transform: scale(0.5) rotate(-6deg); -o-transform: scale(0.5) rotate(-6deg); transform: scale(0.5) rotate(-6deg);}
+.scale60-rotate-6 {-webkit-transform: scale(0.6) rotate(-6deg); -moz-transform: scale(0.6) rotate(-6deg); -ms-transform: scale(0.6) rotate(-6deg); -o-transform: scale(0.6) rotate(-6deg); transform: scale(0.6) rotate(-6deg);}
+.scale70-rotate-6 {-webkit-transform: scale(0.7) rotate(-6deg); -moz-transform: scale(0.7) rotate(-6deg); -ms-transform: scale(0.7) rotate(-6deg); -o-transform: scale(0.7) rotate(-6deg); transform: scale(0.7) rotate(-6deg);}
+.scale80-rotate-6 {-webkit-transform: scale(0.8) rotate(-6deg); -moz-transform: scale(0.8) rotate(-6deg); -ms-transform: scale(0.8) rotate(-6deg); -o-transform: scale(0.8) rotate(-6deg); transform: scale(0.8) rotate(-6deg);}
+.scale90-rotate-6 {-webkit-transform: scale(0.9) rotate(-6deg); -moz-transform: scale(0.9) rotate(-6deg); -ms-transform: scale(0.9) rotate(-6deg); -o-transform: scale(0.9) rotate(-6deg); transform: scale(0.9) rotate(-6deg);}
+/* -- Scale % and rotate 8 -- */
+.scale10-rotate-8 {-webkit-transform: scale(0.1) rotate(-8deg); -moz-transform: scale(0.1) rotate(-8deg); -ms-transform: scale(0.1) rotate(-8deg); -o-transform: scale(0.1) rotate(-8deg); transform: scale(0.1) rotate(-8deg);}
+.scale20-rotate-8 {-webkit-transform: scale(0.2) rotate(-8deg); -moz-transform: scale(0.2) rotate(-8deg); -ms-transform: scale(0.2) rotate(-8deg); -o-transform: scale(0.2) rotate(-8deg); transform: scale(0.2) rotate(-8deg);}
+.scale30-rotate-8 {-webkit-transform: scale(0.3) rotate(-8deg); -moz-transform: scale(0.3) rotate(-8deg); -ms-transform: scale(0.3) rotate(-8deg); -o-transform: scale(0.3) rotate(-8deg); transform: scale(0.3) rotate(-8deg);}
+.scale40-rotate-8 {-webkit-transform: scale(0.4) rotate(-8deg); -moz-transform: scale(0.4) rotate(-8deg); -ms-transform: scale(0.4) rotate(-8deg); -o-transform: scale(0.4) rotate(-8deg); transform: scale(0.4) rotate(-8deg);}
+.scale50-rotate-8 {-webkit-transform: scale(0.5) rotate(-8deg); -moz-transform: scale(0.5) rotate(-8deg); -ms-transform: scale(0.5) rotate(-8deg); -o-transform: scale(0.5) rotate(-8deg); transform: scale(0.5) rotate(-8deg);}
+.scale60-rotate-8 {-webkit-transform: scale(0.6) rotate(-8deg); -moz-transform: scale(0.6) rotate(-8deg); -ms-transform: scale(0.6) rotate(-8deg); -o-transform: scale(0.6) rotate(-8deg); transform: scale(0.6) rotate(-8deg);}
+.scale70-rotate-8 {-webkit-transform: scale(0.7) rotate(-8deg); -moz-transform: scale(0.7) rotate(-8deg); -ms-transform: scale(0.7) rotate(-8deg); -o-transform: scale(0.7) rotate(-8deg); transform: scale(0.7) rotate(-8deg);}
+.scale80-rotate-8 {-webkit-transform: scale(0.8) rotate(-8deg); -moz-transform: scale(0.8) rotate(-8deg); -ms-transform: scale(0.8) rotate(-8deg); -o-transform: scale(0.8) rotate(-8deg); transform: scale(0.8) rotate(-8deg);}
+.scale90-rotate-8 {-webkit-transform: scale(0.9) rotate(-8deg); -moz-transform: scale(0.9) rotate(-8deg); -ms-transform: scale(0.9) rotate(-8deg); -o-transform: scale(0.9) rotate(-8deg); transform: scale(0.9) rotate(-8deg);}
+/* -- Scale % and rotate 10 -- */
+.scale10-rotate-10 {-webkit-transform: scale(0.1) rotate(-10deg); -moz-transform: scale(0.1) rotate(-10deg); -ms-transform: scale(0.1) rotate(-10deg); -o-transform: scale(0.1) rotate(-10deg); transform: scale(0.1) rotate(-10deg);}
+.scale20-rotate-10 {-webkit-transform: scale(0.2) rotate(-10deg); -moz-transform: scale(0.2) rotate(-10deg); -ms-transform: scale(0.2) rotate(-10deg); -o-transform: scale(0.2) rotate(-10deg); transform: scale(0.2) rotate(-10deg);}
+.scale30-rotate-10 {-webkit-transform: scale(0.3) rotate(-10deg); -moz-transform: scale(0.3) rotate(-10deg); -ms-transform: scale(0.3) rotate(-10deg); -o-transform: scale(0.3) rotate(-10deg); transform: scale(0.3) rotate(-10deg);}
+.scale40-rotate-10 {-webkit-transform: scale(0.4) rotate(-10deg); -moz-transform: scale(0.4) rotate(-10deg); -ms-transform: scale(0.4) rotate(-10deg); -o-transform: scale(0.4) rotate(-10deg); transform: scale(0.4) rotate(-10deg);}
+.scale50-rotate-10 {-webkit-transform: scale(0.5) rotate(-10deg); -moz-transform: scale(0.5) rotate(-10deg); -ms-transform: scale(0.5) rotate(-10deg); -o-transform: scale(0.5) rotate(-10deg); transform: scale(0.5) rotate(-10deg);}
+.scale60-rotate-10 {-webkit-transform: scale(0.6) rotate(-10deg); -moz-transform: scale(0.6) rotate(-10deg); -ms-transform: scale(0.6) rotate(-10deg); -o-transform: scale(0.6) rotate(-10deg); transform: scale(0.6) rotate(-10deg);}
+.scale70-rotate-10 {-webkit-transform: scale(0.7) rotate(-10deg); -moz-transform: scale(0.7) rotate(-10deg); -ms-transform: scale(0.7) rotate(-10deg); -o-transform: scale(0.7) rotate(-10deg); transform: scale(0.7) rotate(-10deg);}
+.scale80-rotate-10 {-webkit-transform: scale(0.8) rotate(-10deg); -moz-transform: scale(0.8) rotate(-10deg); -ms-transform: scale(0.8) rotate(-10deg); -o-transform: scale(0.8) rotate(-10deg); transform: scale(0.8) rotate(-10deg);}
+.scale90-rotate-10 {-webkit-transform: scale(0.9) rotate(-10deg); -moz-transform: scale(0.9) rotate(-10deg); -ms-transform: scale(0.9) rotate(-10deg); -o-transform: scale(0.9) rotate(-10deg); transform: scale(0.9) rotate(-10deg);}
+/* -- Scale % and rotate 15 -- */
+.scale10-rotate-15 {-webkit-transform: scale(0.1) rotate(-15deg); -moz-transform: scale(0.1) rotate(-15deg); -ms-transform: scale(0.1) rotate(-15deg); -o-transform: scale(0.1) rotate(-15deg); transform: scale(0.1) rotate(-15deg);}
+.scale20-rotate-15 {-webkit-transform: scale(0.2) rotate(-15deg); -moz-transform: scale(0.2) rotate(-15deg); -ms-transform: scale(0.2) rotate(-15deg); -o-transform: scale(0.2) rotate(-15deg); transform: scale(0.2) rotate(-15deg);}
+.scale30-rotate-15 {-webkit-transform: scale(0.3) rotate(-15deg); -moz-transform: scale(0.3) rotate(-15deg); -ms-transform: scale(0.3) rotate(-15deg); -o-transform: scale(0.3) rotate(-15deg); transform: scale(0.3) rotate(-15deg);}
+.scale40-rotate-15 {-webkit-transform: scale(0.4) rotate(-15deg); -moz-transform: scale(0.4) rotate(-15deg); -ms-transform: scale(0.4) rotate(-15deg); -o-transform: scale(0.4) rotate(-15deg); transform: scale(0.4) rotate(-15deg);}
+.scale50-rotate-15 {-webkit-transform: scale(0.5) rotate(-15deg); -moz-transform: scale(0.5) rotate(-15deg); -ms-transform: scale(0.5) rotate(-15deg); -o-transform: scale(0.5) rotate(-15deg); transform: scale(0.5) rotate(-15deg);}
+.scale60-rotate-15 {-webkit-transform: scale(0.6) rotate(-15deg); -moz-transform: scale(0.6) rotate(-15deg); -ms-transform: scale(0.6) rotate(-15deg); -o-transform: scale(0.6) rotate(-15deg); transform: scale(0.6) rotate(-15deg);}
+.scale70-rotate-15 {-webkit-transform: scale(0.7) rotate(-15deg); -moz-transform: scale(0.7) rotate(-15deg); -ms-transform: scale(0.7) rotate(-15deg); -o-transform: scale(0.7) rotate(-15deg); transform: scale(0.7) rotate(-15deg);}
+.scale80-rotate-15 {-webkit-transform: scale(0.8) rotate(-15deg); -moz-transform: scale(0.8) rotate(-15deg); -ms-transform: scale(0.8) rotate(-15deg); -o-transform: scale(0.8) rotate(-15deg); transform: scale(0.8) rotate(-15deg);}
+.scale90-rotate-15 {-webkit-transform: scale(0.9) rotate(-15deg); -moz-transform: scale(0.9) rotate(-15deg); -ms-transform: scale(0.9) rotate(-15deg); -o-transform: scale(0.9) rotate(-15deg); transform: scale(0.9) rotate(-15deg);}
+/* -- Scale % and rotate 20 -- */
+.scale10-rotate-20 {-webkit-transform: scale(0.1) rotate(-20deg); -moz-transform: scale(0.1) rotate(-20deg); -ms-transform: scale(0.1) rotate(-20deg); -o-transform: scale(0.1) rotate(-20deg); transform: scale(0.1) rotate(-20deg);}
+.scale20-rotate-20 {-webkit-transform: scale(0.2) rotate(-20deg); -moz-transform: scale(0.2) rotate(-20deg); -ms-transform: scale(0.2) rotate(-20deg); -o-transform: scale(0.2) rotate(-20deg); transform: scale(0.2) rotate(-20deg);}
+.scale30-rotate-20 {-webkit-transform: scale(0.3) rotate(-20deg); -moz-transform: scale(0.3) rotate(-20deg); -ms-transform: scale(0.3) rotate(-20deg); -o-transform: scale(0.3) rotate(-20deg); transform: scale(0.3) rotate(-20deg);}
+.scale40-rotate-20 {-webkit-transform: scale(0.4) rotate(-20deg); -moz-transform: scale(0.4) rotate(-20deg); -ms-transform: scale(0.4) rotate(-20deg); -o-transform: scale(0.4) rotate(-20deg); transform: scale(0.4) rotate(-20deg);}
+.scale50-rotate-20 {-webkit-transform: scale(0.5) rotate(-20deg); -moz-transform: scale(0.5) rotate(-20deg); -ms-transform: scale(0.5) rotate(-20deg); -o-transform: scale(0.5) rotate(-20deg); transform: scale(0.5) rotate(-20deg);}
+.scale60-rotate-20 {-webkit-transform: scale(0.6) rotate(-20deg); -moz-transform: scale(0.6) rotate(-20deg); -ms-transform: scale(0.6) rotate(-20deg); -o-transform: scale(0.6) rotate(-20deg); transform: scale(0.6) rotate(-20deg);}
+.scale70-rotate-20 {-webkit-transform: scale(0.7) rotate(-20deg); -moz-transform: scale(0.7) rotate(-20deg); -ms-transform: scale(0.7) rotate(-20deg); -o-transform: scale(0.7) rotate(-20deg); transform: scale(0.7) rotate(-20deg);}
+.scale80-rotate-20 {-webkit-transform: scale(0.8) rotate(-20deg); -moz-transform: scale(0.8) rotate(-20deg); -ms-transform: scale(0.8) rotate(-20deg); -o-transform: scale(0.8) rotate(-20deg); transform: scale(0.8) rotate(-20deg);}
+.scale90-rotate-20 {-webkit-transform: scale(0.9) rotate(-20deg); -moz-transform: scale(0.9) rotate(-20deg); -ms-transform: scale(0.9) rotate(-20deg); -o-transform: scale(0.9) rotate(-20deg); transform: scale(0.9) rotate(-20deg);}
+/* -- Scale % and rotate 25 -- */
+.scale10-rotate-20 {-webkit-transform: scale(0.1) rotate(-25deg); -moz-transform: scale(0.1) rotate(-25deg); -ms-transform: scale(0.1) rotate(-25deg); -o-transform: scale(0.1) rotate(-25deg); transform: scale(0.1) rotate(-25deg);}
+.scale20-rotate-20 {-webkit-transform: scale(0.2) rotate(-25deg); -moz-transform: scale(0.2) rotate(-25deg); -ms-transform: scale(0.2) rotate(-25deg); -o-transform: scale(0.2) rotate(-25deg); transform: scale(0.2) rotate(-25deg);}
+.scale30-rotate-20 {-webkit-transform: scale(0.3) rotate(-25deg); -moz-transform: scale(0.3) rotate(-25deg); -ms-transform: scale(0.3) rotate(-25deg); -o-transform: scale(0.3) rotate(-25deg); transform: scale(0.3) rotate(-25deg);}
+.scale40-rotate-20 {-webkit-transform: scale(0.4) rotate(-25deg); -moz-transform: scale(0.4) rotate(-25deg); -ms-transform: scale(0.4) rotate(-25deg); -o-transform: scale(0.4) rotate(-25deg); transform: scale(0.4) rotate(-25deg);}
+.scale50-rotate-20 {-webkit-transform: scale(0.5) rotate(-25deg); -moz-transform: scale(0.5) rotate(-25deg); -ms-transform: scale(0.5) rotate(-25deg); -o-transform: scale(0.5) rotate(-25deg); transform: scale(0.5) rotate(-25deg);}
+.scale60-rotate-20 {-webkit-transform: scale(0.6) rotate(-25deg); -moz-transform: scale(0.6) rotate(-25deg); -ms-transform: scale(0.6) rotate(-25deg); -o-transform: scale(0.6) rotate(-25deg); transform: scale(0.6) rotate(-25deg);}
+.scale70-rotate-20 {-webkit-transform: scale(0.7) rotate(-25deg); -moz-transform: scale(0.7) rotate(-25deg); -ms-transform: scale(0.7) rotate(-25deg); -o-transform: scale(0.7) rotate(-25deg); transform: scale(0.7) rotate(-25deg);}
+.scale80-rotate-20 {-webkit-transform: scale(0.8) rotate(-25deg); -moz-transform: scale(0.8) rotate(-25deg); -ms-transform: scale(0.8) rotate(-25deg); -o-transform: scale(0.8) rotate(-25deg); transform: scale(0.8) rotate(-25deg);}
+.scale90-rotate-20 {-webkit-transform: scale(0.9) rotate(-25deg); -moz-transform: scale(0.9) rotate(-25deg); -ms-transform: scale(0.9) rotate(-25deg); -o-transform: scale(0.9) rotate(-25deg); transform: scale(0.9) rotate(-25deg);}
+/* -- End Scale and Rotate -- */
+
+/* -- Rounded Corners -- */
+.corner2 { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; background-clip: padding-box;}
+.corner5 { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background-clip: padding-box;}
+.corner8 { -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; background-clip: padding-box;}
+.corner10 { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background-clip: padding-box;}
+.corner12 { -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; background-clip: padding-box;}
+.corner15 { -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; background-clip: padding-box;}
+.corner20 { -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; background-clip: padding-box;}
+
+.corner2-tl { -webkit-border-top-left-radius: 2px;-moz-border-radius-topleft: 2px;border-top-left-radius: 2px; background-clip: padding-box;}
+.corner5-tl { -webkit-border-top-left-radius: 5px;-moz-border-radius-topleft: 5px;border-top-left-radius: 5px; background-clip: padding-box;}
+.corner8-tl { -webkit-border-top-left-radius: 8px;-moz-border-radius-topleft: 8px;border-top-left-radius: 8px; background-clip: padding-box;}
+.corner10-tl { -webkit-border-top-left-radius: 10px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px; background-clip: padding-box;}
+.corner12-tl { -webkit-border-top-left-radius: 12px;-moz-border-radius-topleft: 12px;border-top-left-radius: 12px; background-clip: padding-box;}
+.corner15-tl { -webkit-border-top-left-radius: 15px;-moz-border-radius-topleft: 15px;border-top-left-radius: 15px; background-clip: padding-box;}
+.corner20-tl { -webkit-border-top-left-radius: 20px;-moz-border-radius-topleft: 20px;border-top-left-radius: 20px; background-clip: padding-box;}
+ 
+.corner2-tr { -webkit-border-top-right-radius: 2px;-moz-border-radius-topright: 2px;border-top-right-radius: 2px; background-clip: padding-box;}
+.corner5-tr { -webkit-border-top-right-radius: 5px;-moz-border-radius-topright: 5px;border-top-right-radius: 5px; background-clip: padding-box;}
+.corner8-tr { -webkit-border-top-right-radius: 8px;-moz-border-radius-topright: 8px;border-top-right-radius: 8px; background-clip: padding-box;}
+.corner10-tr { -webkit-border-top-right-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px; background-clip: padding-box;}
+.corner12-tr { -webkit-border-top-right-radius: 12px;-moz-border-radius-topright: 12px;border-top-right-radius: 12px; background-clip: padding-box;}
+.corner15-tr { -webkit-border-top-right-radius: 15px;-moz-border-radius-topright: 15px;border-top-right-radius: 15px; background-clip: padding-box;}
+.corner20-tr { -webkit-border-top-right-radius: 20px;-moz-border-radius-topright: 20px;border-top-right-radius: 20px; background-clip: padding-box;}
+
+.corner2-bl { -webkit-border-bottom-left-radius: 2px;-moz-border-radius-bottomleft: 2px;border-bottom-left-radius: 2px; background-clip: padding-box;}
+.corner5-bl { -webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px;border-bottom-left-radius: 5px; background-clip: padding-box;}
+.corner8-bl { -webkit-border-bottom-left-radius: 8px;-moz-border-radius-bottomleft: 8px;border-bottom-left-radius: 8px; background-clip: padding-box;}
+.corner10-bl { -webkit-border-bottom-left-radius: 10px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px; background-clip: padding-box;}
+.corner12-bl { -webkit-border-bottom-left-radius: 12px;-moz-border-radius-bottomleft: 12px;border-bottom-left-radius: 12px; background-clip: padding-box;}
+.corner15-bl { -webkit-border-bottom-left-radius: 15px;-moz-border-radius-bottomleft: 15px;border-bottom-left-radius: 15px; background-clip: padding-box;}
+.corner20-bl { -webkit-border-bottom-left-radius: 20px;-moz-border-radius-bottomleft: 20px;border-bottom-left-radius: 20px; background-clip: padding-box;}
+ 
+.corner2-br { -webkit-border-bottom-right-radius: 2px;-moz-border-radius-bottomright: 2px;border-bottom-right-radius: 2px; background-clip: padding-box;}
+.corner5-br { -webkit-border-bottom-right-radius: 5px;-moz-border-radius-bottomright: 5px;border-bottom-right-radius: 5px; background-clip: padding-box;}
+.corner8-br { -webkit-border-bottom-right-radius: 8px;-moz-border-radius-bottomright: 8px;border-bottom-right-radius: 8px; background-clip: padding-box;}
+.corner10-br { -webkit-border-bottom-right-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px; background-clip: padding-box;}
+.corner12-br { -webkit-border-bottom-right-radius: 12px;-moz-border-radius-bottomright: 12px;border-bottom-right-radius: 12px; background-clip: padding-box;}
+.corner15-br { -webkit-border-bottom-right-radius: 15px;-moz-border-radius-bottomright: 15px;border-bottom-right-radius: 15px; background-clip: padding-box;}
+.corner20-br { -webkit-border-bottom-right-radius: 20px;-moz-border-radius-bottomright: 20px;border-bottom-right-radius: 20px; background-clip: padding-box;}
+/* -- End Rounded Corners -- */
+
+/* -- Tables Default -- */
+table {width:100%;border:solid 1px #cecece;}
+th {background-color:#444;color:#fff;text-align:left;padding:6px;border:solid 1px #ccc;font-weight:bold;}
+td {text-align:left;padding:6px;border:solid 1px #ccc;}
+tr:nth-child(odd) { background-color:#eee;border:solid 1px #cecece;text-align:left;}
+tr:nth-child(even) { background-color:#fff;border:solid 1px #cecece;text-align:left;}
+
+/* -- Borders -- */
+.border1 {border:1px solid #000;}
+.border2 {border:2px solid #000;}
+.border3 {border:3px solid #000;}
+.border4 {border:4px solid #000;}
+.border5 {border:5px solid #000;}
+.border6 {border:6px solid #000;}
+.border7 {border:7px solid #000;}
+.border8 {border:8px solid #000;}
+.border9 {border:9px solid #000;}
+.border10 {border:10px solid #000;}
+.border11 {border:11px solid #000;}
+.border12 {border:12px solid #000;}
+.border13 {border:13px solid #000;}
+.border14 {border:14px solid #000;}
+.border15 {border:15px solid #000;}
+
+.border-dashed {border-style:dashed;}
+.border-dotted {border-style:dotted;}
+.border-double {border-style:double;}
+.border-groove {border-style:groove;}
+.border-ridge {border-style:ridge;}
+.border-inset {border-style:inset;}
+.border-outset {border-style:outset;}
+/* -- End Borders -- */
+
+/* -- Colours -- */
+.AliceBlue {color:AliceBlue;}
+.AntiqueWhite {color:AntiqueWhite;}
+.Aqua {color:Aqua;}
+.Aquamarine {color:Aquamarine;}
+.Azure {color:Azure;}
+.Beige {color:Beige;}
+.Bisque {color:Bisque;}
+.Black {color:Black;}
+.BlanchedAlmond {color:BlanchedAlmond;}
+.Blue {color:Blue;}
+.BlueViolet {color:BlueViolet;}
+.Brown {color:Brown;}
+.BurlyWood {color:BurlyWood;}
+.CadetBlue {color:CadetBlue;}
+.Chartreuse {color:Chartreuse;}
+.Chocolate {color:Chocolate;}
+.Coral {color:Coral;}
+.CornflowerBlue {color:CornflowerBlue;}
+.Cornsilk {color:Cornsilk;}
+.Crimson {color:Crimson;}
+.Cyan {color:Cyan;}
+.DarkBlue {color:DarkBlue;}
+.DarkCyan {color:DarkCyan;}
+.DarkGoldenRod {color:DarkGoldenRod;}
+.DarkGray {color:DarkGray;}
+.DarkGreen {color:DarkGreen;}
+.DarkKhaki {color:DarkKhaki;}
+.DarkMagenta {color:DarkMagenta;}
+.DarkOliveGreen {color:DarkOliveGreen;}
+.DarkOrange {color:DarkOrange;}
+.DarkOrchid {color:DarkOrchid;}
+.DarkRed {color:DarkRed;}
+.DarkSalmon {color:DarkSalmon;}
+.DarkSeaGreen {color:DarkSeaGreen;}
+.DarkSlateBlue {color:DarkSlateBlue;}
+.DarkSlateGray {color:DarkSlateGray;}
+.DarkTurquoise {color:DarkTurquoise;}
+.DarkViolet {color:DarkViolet;}
+.DeepPink {color:DeepPink;}
+.DeepSkyBlue {color:DeepSkyBlue;}
+.DimGray {color:DimGray;}
+.DodgerBlue {color:DodgerBlue;}
+.FireBrick {color:FireBrick;}
+.FloralWhite {color:FloralWhite;}
+.ForestGreen {color:ForestGreen;}
+.Fuchsia {color:Fuchsia;}
+.Gainsboro {color:Gainsboro;}
+.GhostWhite {color:GhostWhite;}
+.Gold {color:Gold;}
+.GoldenRod {color:GoldenRod;}
+.Gray {color:Gray;}
+.Green {color:Green;}
+.GreenYellow {color:GreenYellow;}
+.HoneyDew {color:HoneyDew;}
+.HotPink {color:HotPink;}
+.IndianRed  {color:IndianRed ;}
+.Indigo  {color:Indigo ;}
+.Ivory {color:Ivory;}
+.Khaki {color:Khaki;}
+.Lavender {color:Lavender;}
+.LavenderBlush {color:LavenderBlush;}
+.LawnGreen {color:LawnGreen;}
+.LemonChiffon {color:LemonChiffon;}
+.LightBlue {color:LightBlue;}
+.LightCoral {color:LightCoral;}
+.LightCyan {color:LightCyan;}
+.LightGoldenRodYellow {color:LightGoldenRodYellow;}
+.LightGray {color:LightGray;}
+.LightGreen {color:LightGreen;}
+.LightPink {color:LightPink;}
+.LightSalmon {color:LightSalmon;}
+.LightSeaGreen {color:LightSeaGreen;}
+.LightSkyBlue {color:LightSkyBlue;}
+.LightSlateGray {color:LightSlateGray;}
+.LightSteelBlue {color:LightSteelBlue;}
+.LightYellow {color:LightYellow;}
+.Lime {color:Lime;}
+.LimeGreen {color:LimeGreen;}
+.Linen {color:Linen;}
+.Magenta {color:Magenta;}
+.Maroon {color:Maroon;}
+.MediumAquaMarine {color:MediumAquaMarine;}
+.MediumBlue {color:MediumBlue;}
+.MediumOrchid {color:MediumOrchid;}
+.MediumPurple {color:MediumPurple;}
+.MediumSeaGreen {color:MediumSeaGreen;}
+.MediumSlateBlue {color:MediumSlateBlue;}
+.MediumSpringGreen {color:MediumSpringGreen;}
+.MediumTurquoise {color:MediumTurquoise;}
+.MediumVioletRed {color:MediumVioletRed;}
+.MidnightBlue {color:MidnightBlue;}
+.MintCream {color:MintCream;}
+.MistyRose {color:MistyRose;}
+.Moccasin {color:Moccasin;}
+.NavajoWhite {color:NavajoWhite;}
+.Navy {color:Navy;}
+.OldLace {color:OldLace;}
+.Olive {color:Olive;}
+.OliveDrab {color:OliveDrab;}
+.Orange {color:Orange;}
+.OrangeRed {color:OrangeRed;}
+.Orchid {color:Orchid;}
+.PaleGoldenRod {color:PaleGoldenRod;}
+.PaleGreen {color:PaleGreen;}
+.PaleTurquoise {color:PaleTurquoise;}
+.PaleVioletRed {color:PaleVioletRed;}
+.PapayaWhip {color:PapayaWhip;}
+.PeachPuff {color:PeachPuff;}
+.Peru {color:Peru;}
+.Pink {color:Pink;}
+.Plum {color:Plum;}
+.PowderBlue {color:PowderBlue;}
+.Purple {color:Purple;}
+.Red {color:Red;}
+.RosyBrown {color:RosyBrown;}
+.RoyalBlue {color:RoyalBlue;}
+.SaddleBrown {color:SaddleBrown;}
+.Salmon {color:Salmon;}
+.SandyBrown {color:SandyBrown;}
+.SeaGreen {color:SeaGreen;}
+.SeaShell {color:SeaShell;}
+.Sienna {color:Sienna;}
+.Silver {color:Silver;}
+.SkyBlue {color:SkyBlue;}
+.SlateBlue {color:SlateBlue;}
+.SlateGray {color:SlateGray;}
+.Snow {color:Snow;}
+.SpringGreen {color:SpringGreen;}
+.SteelBlue {color:SteelBlue;}
+.Tan {color:Tan;}
+.Teal {color:Teal;}
+.Thistle {color:Thistle;}
+.Tomato {color:Tomato;}
+.Turquoise {color:Turquoise;}
+.Violet {color:Violet;}
+.Wheat {color:Wheat;}
+.White {color:White;}
+.WhiteSmoke {color:WhiteSmoke;}
+.Yellow {color:Yellow;}
+.YellowGreen {color:YellowGreen;}
+.Black {color:Black;}
+.Navy {color:Navy;}
+.DarkBlue {color:DarkBlue;}
+.MediumBlue {color:MediumBlue;}
+.Blue {color:Blue;}
+.DarkGreen {color:DarkGreen;}
+.Green {color:Green;}
+.Teal {color:Teal;}
+.DarkCyan {color:DarkCyan;}
+.DeepSkyBlue {color:DeepSkyBlue;}
+.DarkTurquoise {color:DarkTurquoise;}
+.MediumSpringGreen {color:MediumSpringGreen;}
+.Lime {color:Lime;}
+.SpringGreen {color:SpringGreen;}
+.Aqua {color:Aqua;}
+.Cyan {color:Cyan;}
+.MidnightBlue {color:MidnightBlue;}
+.DodgerBlue {color:DodgerBlue;}
+.LightSeaGreen {color:LightSeaGreen;}
+.ForestGreen {color:ForestGreen;}
+.SeaGreen {color:SeaGreen;}
+.DarkSlateGray {color:DarkSlateGray;}
+.LimeGreen {color:LimeGreen;}
+.MediumSeaGreen {color:MediumSeaGreen;}
+.Turquoise {color:Turquoise;}
+.RoyalBlue {color:RoyalBlue;}
+.SteelBlue {color:SteelBlue;}
+.DarkSlateBlue {color:DarkSlateBlue;}
+.MediumTurquoise {color:MediumTurquoise;}
+.Indigo  {color:Indigo ;}
+.DarkOliveGreen {color:DarkOliveGreen;}
+.CadetBlue {color:CadetBlue;}
+.CornflowerBlue {color:CornflowerBlue;}
+.MediumAquaMarine {color:MediumAquaMarine;}
+.DimGray {color:DimGray;}
+.SlateBlue {color:SlateBlue;}
+.OliveDrab {color:OliveDrab;}
+.SlateGray {color:SlateGray;}
+.LightSlateGray {color:LightSlateGray;}
+.MediumSlateBlue {color:MediumSlateBlue;}
+.LawnGreen {color:LawnGreen;}
+.Chartreuse {color:Chartreuse;}
+.Aquamarine {color:Aquamarine;}
+.Maroon {color:Maroon;}
+.Purple {color:Purple;}
+.Olive {color:Olive;}
+.Gray {color:Gray;}
+.SkyBlue {color:SkyBlue;}
+.LightSkyBlue {color:LightSkyBlue;}
+.BlueViolet {color:BlueViolet;}
+.DarkRed {color:DarkRed;}
+.DarkMagenta {color:DarkMagenta;}
+.SaddleBrown {color:SaddleBrown;}
+.DarkSeaGreen {color:DarkSeaGreen;}
+.LightGreen {color:LightGreen;}
+.MediumPurple {color:MediumPurple;}
+.DarkViolet {color:DarkViolet;}
+.PaleGreen {color:PaleGreen;}
+.DarkOrchid {color:DarkOrchid;}
+.YellowGreen {color:YellowGreen;}
+.Sienna {color:Sienna;}
+.Brown {color:Brown;}
+.DarkGray {color:DarkGray;}
+.LightBlue {color:LightBlue;}
+.GreenYellow {color:GreenYellow;}
+.PaleTurquoise {color:PaleTurquoise;}
+.LightSteelBlue {color:LightSteelBlue;}
+.PowderBlue {color:PowderBlue;}
+.FireBrick {color:FireBrick;}
+.DarkGoldenRod {color:DarkGoldenRod;}
+.MediumOrchid {color:MediumOrchid;}
+.RosyBrown {color:RosyBrown;}
+.DarkKhaki {color:DarkKhaki;}
+.Silver {color:Silver;}
+.MediumVioletRed {color:MediumVioletRed;}
+.IndianRed  {color:IndianRed ;}
+.Peru {color:Peru;}
+.Chocolate {color:Chocolate;}
+.Tan {color:Tan;}
+.LightGray {color:LightGray;}
+.Thistle {color:Thistle;}
+.Orchid {color:Orchid;}
+.GoldenRod {color:GoldenRod;}
+.PaleVioletRed {color:PaleVioletRed;}
+.Crimson {color:Crimson;}
+.Gainsboro {color:Gainsboro;}
+.Plum {color:Plum;}
+.BurlyWood {color:BurlyWood;}
+.LightCyan {color:LightCyan;}
+.Lavender {color:Lavender;}
+.DarkSalmon {color:DarkSalmon;}
+.Violet {color:Violet;}
+.PaleGoldenRod {color:PaleGoldenRod;}
+.LightCoral {color:LightCoral;}
+.Khaki {color:Khaki;}
+.AliceBlue {color:AliceBlue;}
+.HoneyDew {color:HoneyDew;}
+.Azure {color:Azure;}
+.SandyBrown {color:SandyBrown;}
+.Wheat {color:Wheat;}
+.Beige {color:Beige;}
+.WhiteSmoke {color:WhiteSmoke;}
+.MintCream {color:MintCream;}
+.GhostWhite {color:GhostWhite;}
+.Salmon {color:Salmon;}
+.AntiqueWhite {color:AntiqueWhite;}
+.Linen {color:Linen;}
+.LightGoldenRodYellow {color:LightGoldenRodYellow;}
+.OldLace {color:OldLace;}
+.Red {color:Red;}
+.Fuchsia {color:Fuchsia;}
+.Magenta {color:Magenta;}
+.DeepPink {color:DeepPink;}
+.OrangeRed {color:OrangeRed;}
+.Tomato {color:Tomato;}
+.HotPink {color:HotPink;}
+.Coral {color:Coral;}
+.DarkOrange {color:DarkOrange;}
+.LightSalmon {color:LightSalmon;}
+.Orange {color:Orange;}
+.LightPink {color:LightPink;}
+.Pink {color:Pink;}
+.Gold {color:Gold;}
+.PeachPuff {color:PeachPuff;}
+.NavajoWhite {color:NavajoWhite;}
+.Moccasin {color:Moccasin;}
+.Bisque {color:Bisque;}
+.MistyRose {color:MistyRose;}
+.BlanchedAlmond {color:BlanchedAlmond;}
+.PapayaWhip {color:PapayaWhip;}
+.LavenderBlush {color:LavenderBlush;}
+.SeaShell {color:SeaShell;}
+.Cornsilk {color:Cornsilk;}
+.LemonChiffon {color:LemonChiffon;}
+.FloralWhite {color:FloralWhite;}
+.Snow {color:Snow;}
+.Yellow {color:Yellow;}
+.LightYellow {color:LightYellow;}
+.Ivory {color:Ivory;}
+.White {color:White;}
+
+.border-AliceBlue {border-color:AliceBlue;}
+.border-AntiqueWhite {border-color:AntiqueWhite;}
+.border-Aqua {border-color:Aqua;}
+.border-Aquamarine {border-color:Aquamarine;}
+.border-Azure {border-color:Azure;}
+.border-Beige {border-color:Beige;}
+.border-Bisque {border-color:Bisque;}
+.border-Black {border-color:Black;}
+.border-BlanchedAlmond {border-color:BlanchedAlmond;}
+.border-Blue {border-color:Blue;}
+.border-BlueViolet {border-color:BlueViolet;}
+.border-Brown {border-color:Brown;}
+.border-BurlyWood {border-color:BurlyWood;}
+.border-CadetBlue {border-color:CadetBlue;}
+.border-Chartreuse {border-color:Chartreuse;}
+.border-Chocolate {border-color:Chocolate;}
+.border-Coral {border-color:Coral;}
+.border-CornflowerBlue {border-color:CornflowerBlue;}
+.border-Cornsilk {border-color:Cornsilk;}
+.border-Crimson {border-color:Crimson;}
+.border-Cyan {border-color:Cyan;}
+.border-DarkBlue {border-color:DarkBlue;}
+.border-DarkCyan {border-color:DarkCyan;}
+.border-DarkGoldenRod {border-color:DarkGoldenRod;}
+.border-DarkGray {border-color:DarkGray;}
+.border-DarkGreen {border-color:DarkGreen;}
+.border-DarkKhaki {border-color:DarkKhaki;}
+.border-DarkMagenta {border-color:DarkMagenta;}
+.border-DarkOliveGreen {border-color:DarkOliveGreen;}
+.border-DarkOrange {border-color:DarkOrange;}
+.border-DarkOrchid {border-color:DarkOrchid;}
+.border-DarkRed {border-color:DarkRed;}
+.border-DarkSalmon {border-color:DarkSalmon;}
+.border-DarkSeaGreen {border-color:DarkSeaGreen;}
+.border-DarkSlateBlue {border-color:DarkSlateBlue;}
+.border-DarkSlateGray {border-color:DarkSlateGray;}
+.border-DarkTurquoise {border-color:DarkTurquoise;}
+.border-DarkViolet {border-color:DarkViolet;}
+.border-DeepPink {border-color:DeepPink;}
+.border-DeepSkyBlue {border-color:DeepSkyBlue;}
+.border-DimGray {border-color:DimGray;}
+.border-DodgerBlue {border-color:DodgerBlue;}
+.border-FireBrick {border-color:FireBrick;}
+.border-FloralWhite {border-color:FloralWhite;}
+.border-ForestGreen {border-color:ForestGreen;}
+.border-Fuchsia {border-color:Fuchsia;}
+.border-Gainsboro {border-color:Gainsboro;}
+.border-GhostWhite {border-color:GhostWhite;}
+.border-Gold {border-color:Gold;}
+.border-GoldenRod {border-color:GoldenRod;}
+.border-Gray {border-color:Gray;}
+.border-Green {border-color:Green;}
+.border-GreenYellow {border-color:GreenYellow;}
+.border-HoneyDew {border-color:HoneyDew;}
+.border-HotPink {border-color:HotPink;}
+.border-IndianRed  {border-color:IndianRed ;}
+.border-Indigo  {border-color:Indigo ;}
+.border-Ivory {border-color:Ivory;}
+.border-Khaki {border-color:Khaki;}
+.border-Lavender {border-color:Lavender;}
+.border-LavenderBlush {border-color:LavenderBlush;}
+.border-LawnGreen {border-color:LawnGreen;}
+.border-LemonChiffon {border-color:LemonChiffon;}
+.border-LightBlue {border-color:LightBlue;}
+.border-LightCoral {border-color:LightCoral;}
+.border-LightCyan {border-color:LightCyan;}
+.border-LightGoldenRodYellow {border-color:LightGoldenRodYellow;}
+.border-LightGray {border-color:LightGray;}
+.border-LightGreen {border-color:LightGreen;}
+.border-LightPink {border-color:LightPink;}
+.border-LightSalmon {border-color:LightSalmon;}
+.border-LightSeaGreen {border-color:LightSeaGreen;}
+.border-LightSkyBlue {border-color:LightSkyBlue;}
+.border-LightSlateGray {border-color:LightSlateGray;}
+.border-LightSteelBlue {border-color:LightSteelBlue;}
+.border-LightYellow {border-color:LightYellow;}
+.border-Lime {border-color:Lime;}
+.border-LimeGreen {border-color:LimeGreen;}
+.border-Linen {border-color:Linen;}
+.border-Magenta {border-color:Magenta;}
+.border-Maroon {border-color:Maroon;}
+.border-MediumAquaMarine {border-color:MediumAquaMarine;}
+.border-MediumBlue {border-color:MediumBlue;}
+.border-MediumOrchid {border-color:MediumOrchid;}
+.border-MediumPurple {border-color:MediumPurple;}
+.border-MediumSeaGreen {border-color:MediumSeaGreen;}
+.border-MediumSlateBlue {border-color:MediumSlateBlue;}
+.border-MediumSpringGreen {border-color:MediumSpringGreen;}
+.border-MediumTurquoise {border-color:MediumTurquoise;}
+.border-MediumVioletRed {border-color:MediumVioletRed;}
+.border-MidnightBlue {border-color:MidnightBlue;}
+.border-MintCream {border-color:MintCream;}
+.border-MistyRose {border-color:MistyRose;}
+.border-Moccasin {border-color:Moccasin;}
+.border-NavajoWhite {border-color:NavajoWhite;}
+.border-Navy {border-color:Navy;}
+.border-OldLace {border-color:OldLace;}
+.border-Olive {border-color:Olive;}
+.border-OliveDrab {border-color:OliveDrab;}
+.border-Orange {border-color:Orange;}
+.border-OrangeRed {border-color:OrangeRed;}
+.border-Orchid {border-color:Orchid;}
+.border-PaleGoldenRod {border-color:PaleGoldenRod;}
+.border-PaleGreen {border-color:PaleGreen;}
+.border-PaleTurquoise {border-color:PaleTurquoise;}
+.border-PaleVioletRed {border-color:PaleVioletRed;}
+.border-PapayaWhip {border-color:PapayaWhip;}
+.border-PeachPuff {border-color:PeachPuff;}
+.border-Peru {border-color:Peru;}
+.border-Pink {border-color:Pink;}
+.border-Plum {border-color:Plum;}
+.border-PowderBlue {border-color:PowderBlue;}
+.border-Purple {border-color:Purple;}
+.border-Red {border-color:Red;}
+.border-RosyBrown {border-color:RosyBrown;}
+.border-RoyalBlue {border-color:RoyalBlue;}
+.border-SaddleBrown {border-color:SaddleBrown;}
+.border-Salmon {border-color:Salmon;}
+.border-SandyBrown {border-color:SandyBrown;}
+.border-SeaGreen {border-color:SeaGreen;}
+.border-SeaShell {border-color:SeaShell;}
+.border-Sienna {border-color:Sienna;}
+.border-Silver {border-color:Silver;}
+.border-SkyBlue {border-color:SkyBlue;}
+.border-SlateBlue {border-color:SlateBlue;}
+.border-SlateGray {border-color:SlateGray;}
+.border-Snow {border-color:Snow;}
+.border-SpringGreen {border-color:SpringGreen;}
+.border-SteelBlue {border-color:SteelBlue;}
+.border-Tan {border-color:Tan;}
+.border-Teal {border-color:Teal;}
+.border-Thistle {border-color:Thistle;}
+.border-Tomato {border-color:Tomato;}
+.border-Turquoise {border-color:Turquoise;}
+.border-Violet {border-color:Violet;}
+.border-Wheat {border-color:Wheat;}
+.border-White {border-color:White;}
+.border-WhiteSmoke {border-color:WhiteSmoke;}
+.border-Yellow {border-color:Yellow;}
+.border-YellowGreen {border-color:YellowGreen;}
+.border-Black {border-color:Black;}
+.border-Navy {border-color:Navy;}
+.border-DarkBlue {border-color:DarkBlue;}
+.border-MediumBlue {border-color:MediumBlue;}
+.border-Blue {border-color:Blue;}
+.border-DarkGreen {border-color:DarkGreen;}
+.border-Green {border-color:Green;}
+.border-Teal {border-color:Teal;}
+.border-DarkCyan {border-color:DarkCyan;}
+.border-DeepSkyBlue {border-color:DeepSkyBlue;}
+.border-DarkTurquoise {border-color:DarkTurquoise;}
+.border-MediumSpringGreen {border-color:MediumSpringGreen;}
+.border-Lime {border-color:Lime;}
+.border-SpringGreen {border-color:SpringGreen;}
+.border-Aqua {border-color:Aqua;}
+.border-Cyan {border-color:Cyan;}
+.border-MidnightBlue {border-color:MidnightBlue;}
+.border-DodgerBlue {border-color:DodgerBlue;}
+.border-LightSeaGreen {border-color:LightSeaGreen;}
+.border-ForestGreen {border-color:ForestGreen;}
+.border-SeaGreen {border-color:SeaGreen;}
+.border-DarkSlateGray {border-color:DarkSlateGray;}
+.border-LimeGreen {border-color:LimeGreen;}
+.border-MediumSeaGreen {border-color:MediumSeaGreen;}
+.border-Turquoise {border-color:Turquoise;}
+.border-RoyalBlue {border-color:RoyalBlue;}
+.border-SteelBlue {border-color:SteelBlue;}
+.border-DarkSlateBlue {border-color:DarkSlateBlue;}
+.border-MediumTurquoise {border-color:MediumTurquoise;}
+.border-Indigo  {border-color:Indigo ;}
+.border-DarkOliveGreen {border-color:DarkOliveGreen;}
+.border-CadetBlue {border-color:CadetBlue;}
+.border-CornflowerBlue {border-color:CornflowerBlue;}
+.border-MediumAquaMarine {border-color:MediumAquaMarine;}
+.border-DimGray {border-color:DimGray;}
+.border-SlateBlue {border-color:SlateBlue;}
+.border-OliveDrab {border-color:OliveDrab;}
+.border-SlateGray {border-color:SlateGray;}
+.border-LightSlateGray {border-color:LightSlateGray;}
+.border-MediumSlateBlue {border-color:MediumSlateBlue;}
+.border-LawnGreen {border-color:LawnGreen;}
+.border-Chartreuse {border-color:Chartreuse;}
+.border-Aquamarine {border-color:Aquamarine;}
+.border-Maroon {border-color:Maroon;}
+.border-Purple {border-color:Purple;}
+.border-Olive {border-color:Olive;}
+.border-Gray {border-color:Gray;}
+.border-SkyBlue {border-color:SkyBlue;}
+.border-LightSkyBlue {border-color:LightSkyBlue;}
+.border-BlueViolet {border-color:BlueViolet;}
+.border-DarkRed {border-color:DarkRed;}
+.border-DarkMagenta {border-color:DarkMagenta;}
+.border-SaddleBrown {border-color:SaddleBrown;}
+.border-DarkSeaGreen {border-color:DarkSeaGreen;}
+.border-LightGreen {border-color:LightGreen;}
+.border-MediumPurple {border-color:MediumPurple;}
+.border-DarkViolet {border-color:DarkViolet;}
+.border-PaleGreen {border-color:PaleGreen;}
+.border-DarkOrchid {border-color:DarkOrchid;}
+.border-YellowGreen {border-color:YellowGreen;}
+.border-Sienna {border-color:Sienna;}
+.border-Brown {border-color:Brown;}
+.border-DarkGray {border-color:DarkGray;}
+.border-LightBlue {border-color:LightBlue;}
+.border-GreenYellow {border-color:GreenYellow;}
+.border-PaleTurquoise {border-color:PaleTurquoise;}
+.border-LightSteelBlue {border-color:LightSteelBlue;}
+.border-PowderBlue {border-color:PowderBlue;}
+.border-FireBrick {border-color:FireBrick;}
+.border-DarkGoldenRod {border-color:DarkGoldenRod;}
+.border-MediumOrchid {border-color:MediumOrchid;}
+.border-RosyBrown {border-color:RosyBrown;}
+.border-DarkKhaki {border-color:DarkKhaki;}
+.border-Silver {border-color:Silver;}
+.border-MediumVioletRed {border-color:MediumVioletRed;}
+.border-IndianRed  {border-color:IndianRed ;}
+.border-Peru {border-color:Peru;}
+.border-Chocolate {border-color:Chocolate;}
+.border-Tan {border-color:Tan;}
+.border-LightGray {border-color:LightGray;}
+.border-Thistle {border-color:Thistle;}
+.border-Orchid {border-color:Orchid;}
+.border-GoldenRod {border-color:GoldenRod;}
+.border-PaleVioletRed {border-color:PaleVioletRed;}
+.border-Crimson {border-color:Crimson;}
+.border-Gainsboro {border-color:Gainsboro;}
+.border-Plum {border-color:Plum;}
+.border-BurlyWood {border-color:BurlyWood;}
+.border-LightCyan {border-color:LightCyan;}
+.border-Lavender {border-color:Lavender;}
+.border-DarkSalmon {border-color:DarkSalmon;}
+.border-Violet {border-color:Violet;}
+.border-PaleGoldenRod {border-color:PaleGoldenRod;}
+.border-LightCoral {border-color:LightCoral;}
+.border-Khaki {border-color:Khaki;}
+.border-AliceBlue {border-color:AliceBlue;}
+.border-HoneyDew {border-color:HoneyDew;}
+.border-Azure {border-color:Azure;}
+.border-SandyBrown {border-color:SandyBrown;}
+.border-Wheat {border-color:Wheat;}
+.border-Beige {border-color:Beige;}
+.border-WhiteSmoke {border-color:WhiteSmoke;}
+.border-MintCream {border-color:MintCream;}
+.border-GhostWhite {border-color:GhostWhite;}
+.border-Salmon {border-color:Salmon;}
+.border-AntiqueWhite {border-color:AntiqueWhite;}
+.border-Linen {border-color:Linen;}
+.border-LightGoldenRodYellow {border-color:LightGoldenRodYellow;}
+.border-OldLace {border-color:OldLace;}
+.border-Red {border-color:Red;}
+.border-Fuchsia {border-color:Fuchsia;}
+.border-Magenta {border-color:Magenta;}
+.border-DeepPink {border-color:DeepPink;}
+.border-OrangeRed {border-color:OrangeRed;}
+.border-Tomato {border-color:Tomato;}
+.border-HotPink {border-color:HotPink;}
+.border-Coral {border-color:Coral;}
+.border-DarkOrange {border-color:DarkOrange;}
+.border-LightSalmon {border-color:LightSalmon;}
+.border-Orange {border-color:Orange;}
+.border-LightPink {border-color:LightPink;}
+.border-Pink {border-color:Pink;}
+.border-Gold {border-color:Gold;}
+.border-PeachPuff {border-color:PeachPuff;}
+.border-NavajoWhite {border-color:NavajoWhite;}
+.border-Moccasin {border-color:Moccasin;}
+.border-Bisque {border-color:Bisque;}
+.border-MistyRose {border-color:MistyRose;}
+.border-BlanchedAlmond {border-color:BlanchedAlmond;}
+.border-PapayaWhip {border-color:PapayaWhip;}
+.border-LavenderBlush {border-color:LavenderBlush;}
+.border-SeaShell {border-color:SeaShell;}
+.border-Cornsilk {border-color:Cornsilk;}
+.border-LemonChiffon {border-color:LemonChiffon;}
+.border-FloralWhite {border-color:FloralWhite;}
+.border-Snow {border-color:Snow;}
+.border-Yellow {border-color:Yellow;}
+.border-LightYellow {border-color:LightYellow;}
+.border-Ivory {border-color:Ivory;}
+.border-White {border-color:White;}
+
+.background-AliceBlue {background-color:AliceBlue;}
+.background-AntiqueWhite {background-color:AntiqueWhite;}
+.background-Aqua {background-color:Aqua;}
+.background-Aquamarine {background-color:Aquamarine;}
+.background-Azure {background-color:Azure;}
+.background-Beige {background-color:Beige;}
+.background-Bisque {background-color:Bisque;}
+.background-Black {background-color:Black;}
+.background-BlanchedAlmond {background-color:BlanchedAlmond;}
+.background-Blue {background-color:Blue;}
+.background-BlueViolet {background-color:BlueViolet;}
+.background-Brown {background-color:Brown;}
+.background-BurlyWood {background-color:BurlyWood;}
+.background-CadetBlue {background-color:CadetBlue;}
+.background-Chartreuse {background-color:Chartreuse;}
+.background-Chocolate {background-color:Chocolate;}
+.background-Coral {background-color:Coral;}
+.background-CornflowerBlue {background-color:CornflowerBlue;}
+.background-Cornsilk {background-color:Cornsilk;}
+.background-Crimson {background-color:Crimson;}
+.background-Cyan {background-color:Cyan;}
+.background-DarkBlue {background-color:DarkBlue;}
+.background-DarkCyan {background-color:DarkCyan;}
+.background-DarkGoldenRod {background-color:DarkGoldenRod;}
+.background-DarkGray {background-color:DarkGray;}
+.background-DarkGreen {background-color:DarkGreen;}
+.background-DarkKhaki {background-color:DarkKhaki;}
+.background-DarkMagenta {background-color:DarkMagenta;}
+.background-DarkOliveGreen {background-color:DarkOliveGreen;}
+.background-DarkOrange {background-color:DarkOrange;}
+.background-DarkOrchid {background-color:DarkOrchid;}
+.background-DarkRed {background-color:DarkRed;}
+.background-DarkSalmon {background-color:DarkSalmon;}
+.background-DarkSeaGreen {background-color:DarkSeaGreen;}
+.background-DarkSlateBlue {background-color:DarkSlateBlue;}
+.background-DarkSlateGray {background-color:DarkSlateGray;}
+.background-DarkTurquoise {background-color:DarkTurquoise;}
+.background-DarkViolet {background-color:DarkViolet;}
+.background-DeepPink {background-color:DeepPink;}
+.background-DeepSkyBlue {background-color:DeepSkyBlue;}
+.background-DimGray {background-color:DimGray;}
+.background-DodgerBlue {background-color:DodgerBlue;}
+.background-FireBrick {background-color:FireBrick;}
+.background-FloralWhite {background-color:FloralWhite;}
+.background-ForestGreen {background-color:ForestGreen;}
+.background-Fuchsia {background-color:Fuchsia;}
+.background-Gainsboro {background-color:Gainsboro;}
+.background-GhostWhite {background-color:GhostWhite;}
+.background-Gold {background-color:Gold;}
+.background-GoldenRod {background-color:GoldenRod;}
+.background-Gray {background-color:Gray;}
+.background-Green {background-color:Green;}
+.background-GreenYellow {background-color:GreenYellow;}
+.background-HoneyDew {background-color:HoneyDew;}
+.background-HotPink {background-color:HotPink;}
+.background-IndianRed  {background-color:IndianRed ;}
+.background-Indigo  {background-color:Indigo ;}
+.background-Ivory {background-color:Ivory;}
+.background-Khaki {background-color:Khaki;}
+.background-Lavender {background-color:Lavender;}
+.background-LavenderBlush {background-color:LavenderBlush;}
+.background-LawnGreen {background-color:LawnGreen;}
+.background-LemonChiffon {background-color:LemonChiffon;}
+.background-LightBlue {background-color:LightBlue;}
+.background-LightCoral {background-color:LightCoral;}
+.background-LightCyan {background-color:LightCyan;}
+.background-LightGoldenRodYellow {background-color:LightGoldenRodYellow;}
+.background-LightGray {background-color:LightGray;}
+.background-LightGreen {background-color:LightGreen;}
+.background-LightPink {background-color:LightPink;}
+.background-LightSalmon {background-color:LightSalmon;}
+.background-LightSeaGreen {background-color:LightSeaGreen;}
+.background-LightSkyBlue {background-color:LightSkyBlue;}
+.background-LightSlateGray {background-color:LightSlateGray;}
+.background-LightSteelBlue {background-color:LightSteelBlue;}
+.background-LightYellow {background-color:LightYellow;}
+.background-Lime {background-color:Lime;}
+.background-LimeGreen {background-color:LimeGreen;}
+.background-Linen {background-color:Linen;}
+.background-Magenta {background-color:Magenta;}
+.background-Maroon {background-color:Maroon;}
+.background-MediumAquaMarine {background-color:MediumAquaMarine;}
+.background-MediumBlue {background-color:MediumBlue;}
+.background-MediumOrchid {background-color:MediumOrchid;}
+.background-MediumPurple {background-color:MediumPurple;}
+.background-MediumSeaGreen {background-color:MediumSeaGreen;}
+.background-MediumSlateBlue {background-color:MediumSlateBlue;}
+.background-MediumSpringGreen {background-color:MediumSpringGreen;}
+.background-MediumTurquoise {background-color:MediumTurquoise;}
+.background-MediumVioletRed {background-color:MediumVioletRed;}
+.background-MidnightBlue {background-color:MidnightBlue;}
+.background-MintCream {background-color:MintCream;}
+.background-MistyRose {background-color:MistyRose;}
+.background-Moccasin {background-color:Moccasin;}
+.background-NavajoWhite {background-color:NavajoWhite;}
+.background-Navy {background-color:Navy;}
+.background-OldLace {background-color:OldLace;}
+.background-Olive {background-color:Olive;}
+.background-OliveDrab {background-color:OliveDrab;}
+.background-Orange {background-color:Orange;}
+.background-OrangeRed {background-color:OrangeRed;}
+.background-Orchid {background-color:Orchid;}
+.background-PaleGoldenRod {background-color:PaleGoldenRod;}
+.background-PaleGreen {background-color:PaleGreen;}
+.background-PaleTurquoise {background-color:PaleTurquoise;}
+.background-PaleVioletRed {background-color:PaleVioletRed;}
+.background-PapayaWhip {background-color:PapayaWhip;}
+.background-PeachPuff {background-color:PeachPuff;}
+.background-Peru {background-color:Peru;}
+.background-Pink {background-color:Pink;}
+.background-Plum {background-color:Plum;}
+.background-PowderBlue {background-color:PowderBlue;}
+.background-Purple {background-color:Purple;}
+.background-Red {background-color:Red;}
+.background-RosyBrown {background-color:RosyBrown;}
+.background-RoyalBlue {background-color:RoyalBlue;}
+.background-SaddleBrown {background-color:SaddleBrown;}
+.background-Salmon {background-color:Salmon;}
+.background-SandyBrown {background-color:SandyBrown;}
+.background-SeaGreen {background-color:SeaGreen;}
+.background-SeaShell {background-color:SeaShell;}
+.background-Sienna {background-color:Sienna;}
+.background-Silver {background-color:Silver;}
+.background-SkyBlue {background-color:SkyBlue;}
+.background-SlateBlue {background-color:SlateBlue;}
+.background-SlateGray {background-color:SlateGray;}
+.background-Snow {background-color:Snow;}
+.background-SpringGreen {background-color:SpringGreen;}
+.background-SteelBlue {background-color:SteelBlue;}
+.background-Tan {background-color:Tan;}
+.background-Teal {background-color:Teal;}
+.background-Thistle {background-color:Thistle;}
+.background-Tomato {background-color:Tomato;}
+.background-Turquoise {background-color:Turquoise;}
+.background-Violet {background-color:Violet;}
+.background-Wheat {background-color:Wheat;}
+.background-White {background-color:White;}
+.background-WhiteSmoke {background-color:WhiteSmoke;}
+.background-Yellow {background-color:Yellow;}
+.background-YellowGreen {background-color:YellowGreen;}
+.background-Black {background-color:Black;}
+.background-Navy {background-color:Navy;}
+.background-DarkBlue {background-color:DarkBlue;}
+.background-MediumBlue {background-color:MediumBlue;}
+.background-Blue {background-color:Blue;}
+.background-DarkGreen {background-color:DarkGreen;}
+.background-Green {background-color:Green;}
+.background-Teal {background-color:Teal;}
+.background-DarkCyan {background-color:DarkCyan;}
+.background-DeepSkyBlue {background-color:DeepSkyBlue;}
+.background-DarkTurquoise {background-color:DarkTurquoise;}
+.background-MediumSpringGreen {background-color:MediumSpringGreen;}
+.background-Lime {background-color:Lime;}
+.background-SpringGreen {background-color:SpringGreen;}
+.background-Aqua {background-color:Aqua;}
+.background-Cyan {background-color:Cyan;}
+.background-MidnightBlue {background-color:MidnightBlue;}
+.background-DodgerBlue {background-color:DodgerBlue;}
+.background-LightSeaGreen {background-color:LightSeaGreen;}
+.background-ForestGreen {background-color:ForestGreen;}
+.background-SeaGreen {background-color:SeaGreen;}
+.background-DarkSlateGray {background-color:DarkSlateGray;}
+.background-LimeGreen {background-color:LimeGreen;}
+.background-MediumSeaGreen {background-color:MediumSeaGreen;}
+.background-Turquoise {background-color:Turquoise;}
+.background-RoyalBlue {background-color:RoyalBlue;}
+.background-SteelBlue {background-color:SteelBlue;}
+.background-DarkSlateBlue {background-color:DarkSlateBlue;}
+.background-MediumTurquoise {background-color:MediumTurquoise;}
+.background-Indigo  {background-color:Indigo ;}
+.background-DarkOliveGreen {background-color:DarkOliveGreen;}
+.background-CadetBlue {background-color:CadetBlue;}
+.background-CornflowerBlue {background-color:CornflowerBlue;}
+.background-MediumAquaMarine {background-color:MediumAquaMarine;}
+.background-DimGray {background-color:DimGray;}
+.background-SlateBlue {background-color:SlateBlue;}
+.background-OliveDrab {background-color:OliveDrab;}
+.background-SlateGray {background-color:SlateGray;}
+.background-LightSlateGray {background-color:LightSlateGray;}
+.background-MediumSlateBlue {background-color:MediumSlateBlue;}
+.background-LawnGreen {background-color:LawnGreen;}
+.background-Chartreuse {background-color:Chartreuse;}
+.background-Aquamarine {background-color:Aquamarine;}
+.background-Maroon {background-color:Maroon;}
+.background-Purple {background-color:Purple;}
+.background-Olive {background-color:Olive;}
+.background-Gray {background-color:Gray;}
+.background-SkyBlue {background-color:SkyBlue;}
+.background-LightSkyBlue {background-color:LightSkyBlue;}
+.background-BlueViolet {background-color:BlueViolet;}
+.background-DarkRed {background-color:DarkRed;}
+.background-DarkMagenta {background-color:DarkMagenta;}
+.background-SaddleBrown {background-color:SaddleBrown;}
+.background-DarkSeaGreen {background-color:DarkSeaGreen;}
+.background-LightGreen {background-color:LightGreen;}
+.background-MediumPurple {background-color:MediumPurple;}
+.background-DarkViolet {background-color:DarkViolet;}
+.background-PaleGreen {background-color:PaleGreen;}
+.background-DarkOrchid {background-color:DarkOrchid;}
+.background-YellowGreen {background-color:YellowGreen;}
+.background-Sienna {background-color:Sienna;}
+.background-Brown {background-color:Brown;}
+.background-DarkGray {background-color:DarkGray;}
+.background-LightBlue {background-color:LightBlue;}
+.background-GreenYellow {background-color:GreenYellow;}
+.background-PaleTurquoise {background-color:PaleTurquoise;}
+.background-LightSteelBlue {background-color:LightSteelBlue;}
+.background-PowderBlue {background-color:PowderBlue;}
+.background-FireBrick {background-color:FireBrick;}
+.background-DarkGoldenRod {background-color:DarkGoldenRod;}
+.background-MediumOrchid {background-color:MediumOrchid;}
+.background-RosyBrown {background-color:RosyBrown;}
+.background-DarkKhaki {background-color:DarkKhaki;}
+.background-Silver {background-color:Silver;}
+.background-MediumVioletRed {background-color:MediumVioletRed;}
+.background-IndianRed  {background-color:IndianRed ;}
+.background-Peru {background-color:Peru;}
+.background-Chocolate {background-color:Chocolate;}
+.background-Tan {background-color:Tan;}
+.background-LightGray {background-color:LightGray;}
+.background-Thistle {background-color:Thistle;}
+.background-Orchid {background-color:Orchid;}
+.background-GoldenRod {background-color:GoldenRod;}
+.background-PaleVioletRed {background-color:PaleVioletRed;}
+.background-Crimson {background-color:Crimson;}
+.background-Gainsboro {background-color:Gainsboro;}
+.background-Plum {background-color:Plum;}
+.background-BurlyWood {background-color:BurlyWood;}
+.background-LightCyan {background-color:LightCyan;}
+.background-Lavender {background-color:Lavender;}
+.background-DarkSalmon {background-color:DarkSalmon;}
+.background-Violet {background-color:Violet;}
+.background-PaleGoldenRod {background-color:PaleGoldenRod;}
+.background-LightCoral {background-color:LightCoral;}
+.background-Khaki {background-color:Khaki;}
+.background-AliceBlue {background-color:AliceBlue;}
+.background-HoneyDew {background-color:HoneyDew;}
+.background-Azure {background-color:Azure;}
+.background-SandyBrown {background-color:SandyBrown;}
+.background-Wheat {background-color:Wheat;}
+.background-Beige {background-color:Beige;}
+.background-WhiteSmoke {background-color:WhiteSmoke;}
+.background-MintCream {background-color:MintCream;}
+.background-GhostWhite {background-color:GhostWhite;}
+.background-Salmon {background-color:Salmon;}
+.background-AntiqueWhite {background-color:AntiqueWhite;}
+.background-Linen {background-color:Linen;}
+.background-LightGoldenRodYellow {background-color:LightGoldenRodYellow;}
+.background-OldLace {background-color:OldLace;}
+.background-Red {background-color:Red;}
+.background-Fuchsia {background-color:Fuchsia;}
+.background-Magenta {background-color:Magenta;}
+.background-DeepPink {background-color:DeepPink;}
+.background-OrangeRed {background-color:OrangeRed;}
+.background-Tomato {background-color:Tomato;}
+.background-HotPink {background-color:HotPink;}
+.background-Coral {background-color:Coral;}
+.background-DarkOrange {background-color:DarkOrange;}
+.background-LightSalmon {background-color:LightSalmon;}
+.background-Orange {background-color:Orange;}
+.background-LightPink {background-color:LightPink;}
+.background-Pink {background-color:Pink;}
+.background-Gold {background-color:Gold;}
+.background-PeachPuff {background-color:PeachPuff;}
+.background-NavajoWhite {background-color:NavajoWhite;}
+.background-Moccasin {background-color:Moccasin;}
+.background-Bisque {background-color:Bisque;}
+.background-MistyRose {background-color:MistyRose;}
+.background-BlanchedAlmond {background-color:BlanchedAlmond;}
+.background-PapayaWhip {background-color:PapayaWhip;}
+.background-LavenderBlush {background-color:LavenderBlush;}
+.background-SeaShell {background-color:SeaShell;}
+.background-Cornsilk {background-color:Cornsilk;}
+.background-LemonChiffon {background-color:LemonChiffon;}
+.background-FloralWhite {background-color:FloralWhite;}
+.background-Snow {background-color:Snow;}
+.background-Yellow {background-color:Yellow;}
+.background-LightYellow {background-color:LightYellow;}
+.background-Ivory {background-color:Ivory;}
+.background-White {background-color:White;}
+
+.heading-AliceBlue .block-title {background-color:AliceBlue;}
+.heading-AntiqueWhite .block-title {background-color:AntiqueWhite;}
+.heading-Aqua .block-title {background-color:Aqua;}
+.heading-Aquamarine .block-title {background-color:Aquamarine;}
+.heading-Azure .block-title {background-color:Azure;}
+.heading-Beige .block-title {background-color:Beige;}
+.heading-Bisque .block-title {background-color:Bisque;}
+.heading-Black .block-title {background-color:Black;}
+.heading-BlanchedAlmond .block-title {background-color:BlanchedAlmond;}
+.heading-Blue .block-title {background-color:Blue;}
+.heading-BlueViolet .block-title {background-color:BlueViolet;}
+.heading-Brown .block-title {background-color:Brown;}
+.heading-BurlyWood .block-title {background-color:BurlyWood;}
+.heading-CadetBlue .block-title {background-color:CadetBlue;}
+.heading-Chartreuse .block-title {background-color:Chartreuse;}
+.heading-Chocolate .block-title {background-color:Chocolate;}
+.heading-Coral .block-title {background-color:Coral;}
+.heading-CornflowerBlue .block-title {background-color:CornflowerBlue;}
+.heading-Cornsilk .block-title {background-color:Cornsilk;}
+.heading-Crimson .block-title {background-color:Crimson;}
+.heading-Cyan .block-title {background-color:Cyan;}
+.heading-DarkBlue .block-title {background-color:DarkBlue;}
+.heading-DarkCyan .block-title {background-color:DarkCyan;}
+.heading-DarkGoldenRod .block-title {background-color:DarkGoldenRod;}
+.heading-DarkGray .block-title {background-color:DarkGray;}
+.heading-DarkGreen .block-title {background-color:DarkGreen;}
+.heading-DarkKhaki .block-title {background-color:DarkKhaki;}
+.heading-DarkMagenta .block-title {background-color:DarkMagenta;}
+.heading-DarkOliveGreen .block-title {background-color:DarkOliveGreen;}
+.heading-DarkOrange .block-title {background-color:DarkOrange;}
+.heading-DarkOrchid .block-title {background-color:DarkOrchid;}
+.heading-DarkRed .block-title {background-color:DarkRed;}
+.heading-DarkSalmon .block-title {background-color:DarkSalmon;}
+.heading-DarkSeaGreen .block-title {background-color:DarkSeaGreen;}
+.heading-DarkSlateBlue .block-title {background-color:DarkSlateBlue;}
+.heading-DarkSlateGray .block-title {background-color:DarkSlateGray;}
+.heading-DarkTurquoise .block-title {background-color:DarkTurquoise;}
+.heading-DarkViolet .block-title {background-color:DarkViolet;}
+.heading-DeepPink .block-title {background-color:DeepPink;}
+.heading-DeepSkyBlue .block-title {background-color:DeepSkyBlue;}
+.heading-DimGray .block-title {background-color:DimGray;}
+.heading-DodgerBlue .block-title {background-color:DodgerBlue;}
+.heading-FireBrick .block-title {background-color:FireBrick;}
+.heading-FloralWhite .block-title {background-color:FloralWhite;}
+.heading-ForestGreen .block-title {background-color:ForestGreen;}
+.heading-Fuchsia .block-title {background-color:Fuchsia;}
+.heading-Gainsboro .block-title {background-color:Gainsboro;}
+.heading-GhostWhite .block-title {background-color:GhostWhite;}
+.heading-Gold .block-title {background-color:Gold;}
+.heading-GoldenRod .block-title {background-color:GoldenRod;}
+.heading-Gray .block-title {background-color:Gray;}
+.heading-Green .block-title {background-color:Green;}
+.heading-GreenYellow .block-title {background-color:GreenYellow;}
+.heading-HoneyDew .block-title {background-color:HoneyDew;}
+.heading-HotPink .block-title {background-color:HotPink;}
+.heading-IndianRed  .block-title {background-color:IndianRed ;}
+.heading-Indigo  .block-title {background-color:Indigo ;}
+.heading-Ivory .block-title {background-color:Ivory;}
+.heading-Khaki .block-title {background-color:Khaki;}
+.heading-Lavender .block-title {background-color:Lavender;}
+.heading-LavenderBlush .block-title {background-color:LavenderBlush;}
+.heading-LawnGreen .block-title {background-color:LawnGreen;}
+.heading-LemonChiffon .block-title {background-color:LemonChiffon;}
+.heading-LightBlue .block-title {background-color:LightBlue;}
+.heading-LightCoral .block-title {background-color:LightCoral;}
+.heading-LightCyan .block-title {background-color:LightCyan;}
+.heading-LightGoldenRodYellow .block-title {background-color:LightGoldenRodYellow;}
+.heading-LightGray .block-title {background-color:LightGray;}
+.heading-LightGreen .block-title {background-color:LightGreen;}
+.heading-LightPink .block-title {background-color:LightPink;}
+.heading-LightSalmon .block-title {background-color:LightSalmon;}
+.heading-LightSeaGreen .block-title {background-color:LightSeaGreen;}
+.heading-LightSkyBlue .block-title {background-color:LightSkyBlue;}
+.heading-LightSlateGray .block-title {background-color:LightSlateGray;}
+.heading-LightSteelBlue .block-title {background-color:LightSteelBlue;}
+.heading-LightYellow .block-title {background-color:LightYellow;}
+.heading-Lime .block-title {background-color:Lime;}
+.heading-LimeGreen .block-title {background-color:LimeGreen;}
+.heading-Linen .block-title {background-color:Linen;}
+.heading-Magenta .block-title {background-color:Magenta;}
+.heading-Maroon .block-title {background-color:Maroon;}
+.heading-MediumAquaMarine .block-title {background-color:MediumAquaMarine;}
+.heading-MediumBlue .block-title {background-color:MediumBlue;}
+.heading-MediumOrchid .block-title {background-color:MediumOrchid;}
+.heading-MediumPurple .block-title {background-color:MediumPurple;}
+.heading-MediumSeaGreen .block-title {background-color:MediumSeaGreen;}
+.heading-MediumSlateBlue .block-title {background-color:MediumSlateBlue;}
+.heading-MediumSpringGreen .block-title {background-color:MediumSpringGreen;}
+.heading-MediumTurquoise .block-title {background-color:MediumTurquoise;}
+.heading-MediumVioletRed .block-title {background-color:MediumVioletRed;}
+.heading-MidnightBlue .block-title {background-color:MidnightBlue;}
+.heading-MintCream .block-title {background-color:MintCream;}
+.heading-MistyRose .block-title {background-color:MistyRose;}
+.heading-Moccasin .block-title {background-color:Moccasin;}
+.heading-NavajoWhite .block-title {background-color:NavajoWhite;}
+.heading-Navy .block-title {background-color:Navy;}
+.heading-OldLace .block-title {background-color:OldLace;}
+.heading-Olive .block-title {background-color:Olive;}
+.heading-OliveDrab .block-title {background-color:OliveDrab;}
+.heading-Orange .block-title {background-color:Orange;}
+.heading-OrangeRed .block-title {background-color:OrangeRed;}
+.heading-Orchid .block-title {background-color:Orchid;}
+.heading-PaleGoldenRod .block-title {background-color:PaleGoldenRod;}
+.heading-PaleGreen .block-title {background-color:PaleGreen;}
+.heading-PaleTurquoise .block-title {background-color:PaleTurquoise;}
+.heading-PaleVioletRed .block-title {background-color:PaleVioletRed;}
+.heading-PapayaWhip .block-title {background-color:PapayaWhip;}
+.heading-PeachPuff .block-title {background-color:PeachPuff;}
+.heading-Peru .block-title {background-color:Peru;}
+.heading-Pink .block-title {background-color:Pink;}
+.heading-Plum .block-title {background-color:Plum;}
+.heading-PowderBlue .block-title {background-color:PowderBlue;}
+.heading-Purple .block-title {background-color:Purple;}
+.heading-Red .block-title {background-color:Red;}
+.heading-RosyBrown .block-title {background-color:RosyBrown;}
+.heading-RoyalBlue .block-title {background-color:RoyalBlue;}
+.heading-SaddleBrown .block-title {background-color:SaddleBrown;}
+.heading-Salmon .block-title {background-color:Salmon;}
+.heading-SandyBrown .block-title {background-color:SandyBrown;}
+.heading-SeaGreen .block-title {background-color:SeaGreen;}
+.heading-SeaShell .block-title {background-color:SeaShell;}
+.heading-Sienna .block-title {background-color:Sienna;}
+.heading-Silver .block-title {background-color:Silver;}
+.heading-SkyBlue .block-title {background-color:SkyBlue;}
+.heading-SlateBlue .block-title {background-color:SlateBlue;}
+.heading-SlateGray .block-title {background-color:SlateGray;}
+.heading-Snow .block-title {background-color:Snow;}
+.heading-SpringGreen .block-title {background-color:SpringGreen;}
+.heading-SteelBlue .block-title {background-color:SteelBlue;}
+.heading-Tan .block-title {background-color:Tan;}
+.heading-Teal .block-title {background-color:Teal;}
+.heading-Thistle .block-title {background-color:Thistle;}
+.heading-Tomato .block-title {background-color:Tomato;}
+.heading-Turquoise .block-title {background-color:Turquoise;}
+.heading-Violet .block-title {background-color:Violet;}
+.heading-Wheat .block-title {background-color:Wheat;}
+.heading-White .block-title {background-color:White;}
+.heading-WhiteSmoke .block-title {background-color:WhiteSmoke;}
+.heading-Yellow .block-title {background-color:Yellow;}
+.heading-YellowGreen .block-title {background-color:YellowGreen;}
+.heading-Black .block-title {background-color:Black;}
+.heading-Navy .block-title {background-color:Navy;}
+.heading-DarkBlue .block-title {background-color:DarkBlue;}
+.heading-MediumBlue .block-title {background-color:MediumBlue;}
+.heading-Blue .block-title {background-color:Blue;}
+.heading-DarkGreen .block-title {background-color:DarkGreen;}
+.heading-Green .block-title {background-color:Green;}
+.heading-Teal .block-title {background-color:Teal;}
+.heading-DarkCyan .block-title {background-color:DarkCyan;}
+.heading-DeepSkyBlue .block-title {background-color:DeepSkyBlue;}
+.heading-DarkTurquoise .block-title {background-color:DarkTurquoise;}
+.heading-MediumSpringGreen .block-title {background-color:MediumSpringGreen;}
+.heading-Lime .block-title {background-color:Lime;}
+.heading-SpringGreen .block-title {background-color:SpringGreen;}
+.heading-Aqua .block-title {background-color:Aqua;}
+.heading-Cyan .block-title {background-color:Cyan;}
+.heading-MidnightBlue .block-title {background-color:MidnightBlue;}
+.heading-DodgerBlue .block-title {background-color:DodgerBlue;}
+.heading-LightSeaGreen .block-title {background-color:LightSeaGreen;}
+.heading-ForestGreen .block-title {background-color:ForestGreen;}
+.heading-SeaGreen .block-title {background-color:SeaGreen;}
+.heading-DarkSlateGray .block-title {background-color:DarkSlateGray;}
+.heading-LimeGreen .block-title {background-color:LimeGreen;}
+.heading-MediumSeaGreen .block-title {background-color:MediumSeaGreen;}
+.heading-Turquoise .block-title {background-color:Turquoise;}
+.heading-RoyalBlue .block-title {background-color:RoyalBlue;}
+.heading-SteelBlue .block-title {background-color:SteelBlue;}
+.heading-DarkSlateBlue .block-title {background-color:DarkSlateBlue;}
+.heading-MediumTurquoise .block-title {background-color:MediumTurquoise;}
+.heading-Indigo  .block-title {background-color:Indigo ;}
+.heading-DarkOliveGreen .block-title {background-color:DarkOliveGreen;}
+.heading-CadetBlue .block-title {background-color:CadetBlue;}
+.heading-CornflowerBlue .block-title {background-color:CornflowerBlue;}
+.heading-MediumAquaMarine .block-title {background-color:MediumAquaMarine;}
+.heading-DimGray .block-title {background-color:DimGray;}
+.heading-SlateBlue .block-title {background-color:SlateBlue;}
+.heading-OliveDrab .block-title {background-color:OliveDrab;}
+.heading-SlateGray .block-title {background-color:SlateGray;}
+.heading-LightSlateGray .block-title {background-color:LightSlateGray;}
+.heading-MediumSlateBlue .block-title {background-color:MediumSlateBlue;}
+.heading-LawnGreen .block-title {background-color:LawnGreen;}
+.heading-Chartreuse .block-title {background-color:Chartreuse;}
+.heading-Aquamarine .block-title {background-color:Aquamarine;}
+.heading-Maroon .block-title {background-color:Maroon;}
+.heading-Purple .block-title {background-color:Purple;}
+.heading-Olive .block-title {background-color:Olive;}
+.heading-Gray .block-title {background-color:Gray;}
+.heading-SkyBlue .block-title {background-color:SkyBlue;}
+.heading-LightSkyBlue .block-title {background-color:LightSkyBlue;}
+.heading-BlueViolet .block-title {background-color:BlueViolet;}
+.heading-DarkRed .block-title {background-color:DarkRed;}
+.heading-DarkMagenta .block-title {background-color:DarkMagenta;}
+.heading-SaddleBrown .block-title {background-color:SaddleBrown;}
+.heading-DarkSeaGreen .block-title {background-color:DarkSeaGreen;}
+.heading-LightGreen .block-title {background-color:LightGreen;}
+.heading-MediumPurple .block-title {background-color:MediumPurple;}
+.heading-DarkViolet .block-title {background-color:DarkViolet;}
+.heading-PaleGreen .block-title {background-color:PaleGreen;}
+.heading-DarkOrchid .block-title {background-color:DarkOrchid;}
+.heading-YellowGreen .block-title {background-color:YellowGreen;}
+.heading-Sienna .block-title {background-color:Sienna;}
+.heading-Brown .block-title {background-color:Brown;}
+.heading-DarkGray .block-title {background-color:DarkGray;}
+.heading-LightBlue .block-title {background-color:LightBlue;}
+.heading-GreenYellow .block-title {background-color:GreenYellow;}
+.heading-PaleTurquoise .block-title {background-color:PaleTurquoise;}
+.heading-LightSteelBlue .block-title {background-color:LightSteelBlue;}
+.heading-PowderBlue .block-title {background-color:PowderBlue;}
+.heading-FireBrick .block-title {background-color:FireBrick;}
+.heading-DarkGoldenRod .block-title {background-color:DarkGoldenRod;}
+.heading-MediumOrchid .block-title {background-color:MediumOrchid;}
+.heading-RosyBrown .block-title {background-color:RosyBrown;}
+.heading-DarkKhaki .block-title {background-color:DarkKhaki;}
+.heading-Silver .block-title {background-color:Silver;}
+.heading-MediumVioletRed .block-title {background-color:MediumVioletRed;}
+.heading-IndianRed  .block-title {background-color:IndianRed ;}
+.heading-Peru .block-title {background-color:Peru;}
+.heading-Chocolate .block-title {background-color:Chocolate;}
+.heading-Tan .block-title {background-color:Tan;}
+.heading-LightGray .block-title {background-color:LightGray;}
+.heading-Thistle .block-title {background-color:Thistle;}
+.heading-Orchid .block-title {background-color:Orchid;}
+.heading-GoldenRod .block-title {background-color:GoldenRod;}
+.heading-PaleVioletRed .block-title {background-color:PaleVioletRed;}
+.heading-Crimson .block-title {background-color:Crimson;}
+.heading-Gainsboro .block-title {background-color:Gainsboro;}
+.heading-Plum .block-title {background-color:Plum;}
+.heading-BurlyWood .block-title {background-color:BurlyWood;}
+.heading-LightCyan .block-title {background-color:LightCyan;}
+.heading-Lavender .block-title {background-color:Lavender;}
+.heading-DarkSalmon .block-title {background-color:DarkSalmon;}
+.heading-Violet .block-title {background-color:Violet;}
+.heading-PaleGoldenRod .block-title {background-color:PaleGoldenRod;}
+.heading-LightCoral .block-title {background-color:LightCoral;}
+.heading-Khaki .block-title {background-color:Khaki;}
+.heading-AliceBlue .block-title {background-color:AliceBlue;}
+.heading-HoneyDew .block-title {background-color:HoneyDew;}
+.heading-Azure .block-title {background-color:Azure;}
+.heading-SandyBrown .block-title {background-color:SandyBrown;}
+.heading-Wheat .block-title {background-color:Wheat;}
+.heading-Beige .block-title {background-color:Beige;}
+.heading-WhiteSmoke .block-title {background-color:WhiteSmoke;}
+.heading-MintCream .block-title {background-color:MintCream;}
+.heading-GhostWhite .block-title {background-color:GhostWhite;}
+.heading-Salmon .block-title {background-color:Salmon;}
+.heading-AntiqueWhite .block-title {background-color:AntiqueWhite;}
+.heading-Linen .block-title {background-color:Linen;}
+.heading-LightGoldenRodYellow .block-title {background-color:LightGoldenRodYellow;}
+.heading-OldLace .block-title {background-color:OldLace;}
+.heading-Red .block-title {background-color:Red;}
+.heading-Fuchsia .block-title {background-color:Fuchsia;}
+.heading-Magenta .block-title {background-color:Magenta;}
+.heading-DeepPink .block-title {background-color:DeepPink;}
+.heading-OrangeRed .block-title {background-color:OrangeRed;}
+.heading-Tomato .block-title {background-color:Tomato;}
+.heading-HotPink .block-title {background-color:HotPink;}
+.heading-Coral .block-title {background-color:Coral;}
+.heading-DarkOrange .block-title {background-color:DarkOrange;}
+.heading-LightSalmon .block-title {background-color:LightSalmon;}
+.heading-Orange .block-title {background-color:Orange;}
+.heading-LightPink .block-title {background-color:LightPink;}
+.heading-Pink .block-title {background-color:Pink;}
+.heading-Gold .block-title {background-color:Gold;}
+.heading-PeachPuff .block-title {background-color:PeachPuff;}
+.heading-NavajoWhite .block-title {background-color:NavajoWhite;}
+.heading-Moccasin .block-title {background-color:Moccasin;}
+.heading-Bisque .block-title {background-color:Bisque;}
+.heading-MistyRose .block-title {background-color:MistyRose;}
+.heading-BlanchedAlmond .block-title {background-color:BlanchedAlmond;}
+.heading-PapayaWhip .block-title {background-color:PapayaWhip;}
+.heading-LavenderBlush .block-title {background-color:LavenderBlush;}
+.heading-SeaShell .block-title {background-color:SeaShell;}
+.heading-Cornsilk .block-title {background-color:Cornsilk;}
+.heading-LemonChiffon .block-title {background-color:LemonChiffon;}
+.heading-FloralWhite .block-title {background-color:FloralWhite;}
+.heading-Snow .block-title {background-color:Snow;}
+.heading-Yellow .block-title {background-color:Yellow;}
+.heading-LightYellow .block-title {background-color:LightYellow;}
+.heading-Ivory .block-title {background-color:Ivory;}
+.heading-White .block-title {background-color:White;}
+
+
+.headingfont-AliceBlue .block-title {color:AliceBlue;}
+.headingfont-AntiqueWhite .block-title {color:AntiqueWhite;}
+.headingfont-Aqua .block-title {color:Aqua;}
+.headingfont-Aquamarine .block-title {color:Aquamarine;}
+.headingfont-Azure .block-title {color:Azure;}
+.headingfont-Beige .block-title {color:Beige;}
+.headingfont-Bisque .block-title {color:Bisque;}
+.headingfont-Black .block-title {color:Black;}
+.headingfont-BlanchedAlmond .block-title {color:BlanchedAlmond;}
+.headingfont-Blue .block-title {color:Blue;}
+.headingfont-BlueViolet .block-title {color:BlueViolet;}
+.headingfont-Brown .block-title {color:Brown;}
+.headingfont-BurlyWood .block-title {color:BurlyWood;}
+.headingfont-CadetBlue .block-title {color:CadetBlue;}
+.headingfont-Chartreuse .block-title {color:Chartreuse;}
+.headingfont-Chocolate .block-title {color:Chocolate;}
+.headingfont-Coral .block-title {color:Coral;}
+.headingfont-CornflowerBlue .block-title {color:CornflowerBlue;}
+.headingfont-Cornsilk .block-title {color:Cornsilk;}
+.headingfont-Crimson .block-title {color:Crimson;}
+.headingfont-Cyan .block-title {color:Cyan;}
+.headingfont-DarkBlue .block-title {color:DarkBlue;}
+.headingfont-DarkCyan .block-title {color:DarkCyan;}
+.headingfont-DarkGoldenRod .block-title {color:DarkGoldenRod;}
+.headingfont-DarkGray .block-title {color:DarkGray;}
+.headingfont-DarkGreen .block-title {color:DarkGreen;}
+.headingfont-DarkKhaki .block-title {color:DarkKhaki;}
+.headingfont-DarkMagenta .block-title {color:DarkMagenta;}
+.headingfont-DarkOliveGreen .block-title {color:DarkOliveGreen;}
+.headingfont-DarkOrange .block-title {color:DarkOrange;}
+.headingfont-DarkOrchid .block-title {color:DarkOrchid;}
+.headingfont-DarkRed .block-title {color:DarkRed;}
+.headingfont-DarkSalmon .block-title {color:DarkSalmon;}
+.headingfont-DarkSeaGreen .block-title {color:DarkSeaGreen;}
+.headingfont-DarkSlateBlue .block-title {color:DarkSlateBlue;}
+.headingfont-DarkSlateGray .block-title {color:DarkSlateGray;}
+.headingfont-DarkTurquoise .block-title {color:DarkTurquoise;}
+.headingfont-DarkViolet .block-title {color:DarkViolet;}
+.headingfont-DeepPink .block-title {color:DeepPink;}
+.headingfont-DeepSkyBlue .block-title {color:DeepSkyBlue;}
+.headingfont-DimGray .block-title {color:DimGray;}
+.headingfont-DodgerBlue .block-title {color:DodgerBlue;}
+.headingfont-FireBrick .block-title {color:FireBrick;}
+.headingfont-FloralWhite .block-title {color:FloralWhite;}
+.headingfont-ForestGreen .block-title {color:ForestGreen;}
+.headingfont-Fuchsia .block-title {color:Fuchsia;}
+.headingfont-Gainsboro .block-title {color:Gainsboro;}
+.headingfont-GhostWhite .block-title {color:GhostWhite;}
+.headingfont-Gold .block-title {color:Gold;}
+.headingfont-GoldenRod .block-title {color:GoldenRod;}
+.headingfont-Gray .block-title {color:Gray;}
+.headingfont-Green .block-title {color:Green;}
+.headingfont-GreenYellow .block-title {color:GreenYellow;}
+.headingfont-HoneyDew .block-title {color:HoneyDew;}
+.headingfont-HotPink .block-title {color:HotPink;}
+.headingfont-IndianRed  .block-title {color:IndianRed ;}
+.headingfont-Indigo  .block-title {color:Indigo ;}
+.headingfont-Ivory .block-title {color:Ivory;}
+.headingfont-Khaki .block-title {color:Khaki;}
+.headingfont-Lavender .block-title {color:Lavender;}
+.headingfont-LavenderBlush .block-title {color:LavenderBlush;}
+.headingfont-LawnGreen .block-title {color:LawnGreen;}
+.headingfont-LemonChiffon .block-title {color:LemonChiffon;}
+.headingfont-LightBlue .block-title {color:LightBlue;}
+.headingfont-LightCoral .block-title {color:LightCoral;}
+.headingfont-LightCyan .block-title {color:LightCyan;}
+.headingfont-LightGoldenRodYellow .block-title {color:LightGoldenRodYellow;}
+.headingfont-LightGray .block-title {color:LightGray;}
+.headingfont-LightGreen .block-title {color:LightGreen;}
+.headingfont-LightPink .block-title {color:LightPink;}
+.headingfont-LightSalmon .block-title {color:LightSalmon;}
+.headingfont-LightSeaGreen .block-title {color:LightSeaGreen;}
+.headingfont-LightSkyBlue .block-title {color:LightSkyBlue;}
+.headingfont-LightSlateGray .block-title {color:LightSlateGray;}
+.headingfont-LightSteelBlue .block-title {color:LightSteelBlue;}
+.headingfont-LightYellow .block-title {color:LightYellow;}
+.headingfont-Lime .block-title {color:Lime;}
+.headingfont-LimeGreen .block-title {color:LimeGreen;}
+.headingfont-Linen .block-title {color:Linen;}
+.headingfont-Magenta .block-title {color:Magenta;}
+.headingfont-Maroon .block-title {color:Maroon;}
+.headingfont-MediumAquaMarine .block-title {color:MediumAquaMarine;}
+.headingfont-MediumBlue .block-title {color:MediumBlue;}
+.headingfont-MediumOrchid .block-title {color:MediumOrchid;}
+.headingfont-MediumPurple .block-title {color:MediumPurple;}
+.headingfont-MediumSeaGreen .block-title {color:MediumSeaGreen;}
+.headingfont-MediumSlateBlue .block-title {color:MediumSlateBlue;}
+.headingfont-MediumSpringGreen .block-title {color:MediumSpringGreen;}
+.headingfont-MediumTurquoise .block-title {color:MediumTurquoise;}
+.headingfont-MediumVioletRed .block-title {color:MediumVioletRed;}
+.headingfont-MidnightBlue .block-title {color:MidnightBlue;}
+.headingfont-MintCream .block-title {color:MintCream;}
+.headingfont-MistyRose .block-title {color:MistyRose;}
+.headingfont-Moccasin .block-title {color:Moccasin;}
+.headingfont-NavajoWhite .block-title {color:NavajoWhite;}
+.headingfont-Navy .block-title {color:Navy;}
+.headingfont-OldLace .block-title {color:OldLace;}
+.headingfont-Olive .block-title {color:Olive;}
+.headingfont-OliveDrab .block-title {color:OliveDrab;}
+.headingfont-Orange .block-title {color:Orange;}
+.headingfont-OrangeRed .block-title {color:OrangeRed;}
+.headingfont-Orchid .block-title {color:Orchid;}
+.headingfont-PaleGoldenRod .block-title {color:PaleGoldenRod;}
+.headingfont-PaleGreen .block-title {color:PaleGreen;}
+.headingfont-PaleTurquoise .block-title {color:PaleTurquoise;}
+.headingfont-PaleVioletRed .block-title {color:PaleVioletRed;}
+.headingfont-PapayaWhip .block-title {color:PapayaWhip;}
+.headingfont-PeachPuff .block-title {color:PeachPuff;}
+.headingfont-Peru .block-title {color:Peru;}
+.headingfont-Pink .block-title {color:Pink;}
+.headingfont-Plum .block-title {color:Plum;}
+.headingfont-PowderBlue .block-title {color:PowderBlue;}
+.headingfont-Purple .block-title {color:Purple;}
+.headingfont-Red .block-title {color:Red;}
+.headingfont-RosyBrown .block-title {color:RosyBrown;}
+.headingfont-RoyalBlue .block-title {color:RoyalBlue;}
+.headingfont-SaddleBrown .block-title {color:SaddleBrown;}
+.headingfont-Salmon .block-title {color:Salmon;}
+.headingfont-SandyBrown .block-title {color:SandyBrown;}
+.headingfont-SeaGreen .block-title {color:SeaGreen;}
+.headingfont-SeaShell .block-title {color:SeaShell;}
+.headingfont-Sienna .block-title {color:Sienna;}
+.headingfont-Silver .block-title {color:Silver;}
+.headingfont-SkyBlue .block-title {color:SkyBlue;}
+.headingfont-SlateBlue .block-title {color:SlateBlue;}
+.headingfont-SlateGray .block-title {color:SlateGray;}
+.headingfont-Snow .block-title {color:Snow;}
+.headingfont-SpringGreen .block-title {color:SpringGreen;}
+.headingfont-SteelBlue .block-title {color:SteelBlue;}
+.headingfont-Tan .block-title {color:Tan;}
+.headingfont-Teal .block-title {color:Teal;}
+.headingfont-Thistle .block-title {color:Thistle;}
+.headingfont-Tomato .block-title {color:Tomato;}
+.headingfont-Turquoise .block-title {color:Turquoise;}
+.headingfont-Violet .block-title {color:Violet;}
+.headingfont-Wheat .block-title {color:Wheat;}
+.headingfont-White .block-title {color:White;}
+.headingfont-WhiteSmoke .block-title {color:WhiteSmoke;}
+.headingfont-Yellow .block-title {color:Yellow;}
+.headingfont-YellowGreen .block-title {color:YellowGreen;}
+.headingfont-Black .block-title {color:Black;}
+.headingfont-Navy .block-title {color:Navy;}
+.headingfont-DarkBlue .block-title {color:DarkBlue;}
+.headingfont-MediumBlue .block-title {color:MediumBlue;}
+.headingfont-Blue .block-title {color:Blue;}
+.headingfont-DarkGreen .block-title {color:DarkGreen;}
+.headingfont-Green .block-title {color:Green;}
+.headingfont-Teal .block-title {color:Teal;}
+.headingfont-DarkCyan .block-title {color:DarkCyan;}
+.headingfont-DeepSkyBlue .block-title {color:DeepSkyBlue;}
+.headingfont-DarkTurquoise .block-title {color:DarkTurquoise;}
+.headingfont-MediumSpringGreen .block-title {color:MediumSpringGreen;}
+.headingfont-Lime .block-title {color:Lime;}
+.headingfont-SpringGreen .block-title {color:SpringGreen;}
+.headingfont-Aqua .block-title {color:Aqua;}
+.headingfont-Cyan .block-title {color:Cyan;}
+.headingfont-MidnightBlue .block-title {color:MidnightBlue;}
+.headingfont-DodgerBlue .block-title {color:DodgerBlue;}
+.headingfont-LightSeaGreen .block-title {color:LightSeaGreen;}
+.headingfont-ForestGreen .block-title {color:ForestGreen;}
+.headingfont-SeaGreen .block-title {color:SeaGreen;}
+.headingfont-DarkSlateGray .block-title {color:DarkSlateGray;}
+.headingfont-LimeGreen .block-title {color:LimeGreen;}
+.headingfont-MediumSeaGreen .block-title {color:MediumSeaGreen;}
+.headingfont-Turquoise .block-title {color:Turquoise;}
+.headingfont-RoyalBlue .block-title {color:RoyalBlue;}
+.headingfont-SteelBlue .block-title {color:SteelBlue;}
+.headingfont-DarkSlateBlue .block-title {color:DarkSlateBlue;}
+.headingfont-MediumTurquoise .block-title {color:MediumTurquoise;}
+.headingfont-Indigo  .block-title {color:Indigo ;}
+.headingfont-DarkOliveGreen .block-title {color:DarkOliveGreen;}
+.headingfont-CadetBlue .block-title {color:CadetBlue;}
+.headingfont-CornflowerBlue .block-title {color:CornflowerBlue;}
+.headingfont-MediumAquaMarine .block-title {color:MediumAquaMarine;}
+.headingfont-DimGray .block-title {color:DimGray;}
+.headingfont-SlateBlue .block-title {color:SlateBlue;}
+.headingfont-OliveDrab .block-title {color:OliveDrab;}
+.headingfont-SlateGray .block-title {color:SlateGray;}
+.headingfont-LightSlateGray .block-title {color:LightSlateGray;}
+.headingfont-MediumSlateBlue .block-title {color:MediumSlateBlue;}
+.headingfont-LawnGreen .block-title {color:LawnGreen;}
+.headingfont-Chartreuse .block-title {color:Chartreuse;}
+.headingfont-Aquamarine .block-title {color:Aquamarine;}
+.headingfont-Maroon .block-title {color:Maroon;}
+.headingfont-Purple .block-title {color:Purple;}
+.headingfont-Olive .block-title {color:Olive;}
+.headingfont-Gray .block-title {color:Gray;}
+.headingfont-SkyBlue .block-title {color:SkyBlue;}
+.headingfont-LightSkyBlue .block-title {color:LightSkyBlue;}
+.headingfont-BlueViolet .block-title {color:BlueViolet;}
+.headingfont-DarkRed .block-title {color:DarkRed;}
+.headingfont-DarkMagenta .block-title {color:DarkMagenta;}
+.headingfont-SaddleBrown .block-title {color:SaddleBrown;}
+.headingfont-DarkSeaGreen .block-title {color:DarkSeaGreen;}
+.headingfont-LightGreen .block-title {color:LightGreen;}
+.headingfont-MediumPurple .block-title {color:MediumPurple;}
+.headingfont-DarkViolet .block-title {color:DarkViolet;}
+.headingfont-PaleGreen .block-title {color:PaleGreen;}
+.headingfont-DarkOrchid .block-title {color:DarkOrchid;}
+.headingfont-YellowGreen .block-title {color:YellowGreen;}
+.headingfont-Sienna .block-title {color:Sienna;}
+.headingfont-Brown .block-title {color:Brown;}
+.headingfont-DarkGray .block-title {color:DarkGray;}
+.headingfont-LightBlue .block-title {color:LightBlue;}
+.headingfont-GreenYellow .block-title {color:GreenYellow;}
+.headingfont-PaleTurquoise .block-title {color:PaleTurquoise;}
+.headingfont-LightSteelBlue .block-title {color:LightSteelBlue;}
+.headingfont-PowderBlue .block-title {color:PowderBlue;}
+.headingfont-FireBrick .block-title {color:FireBrick;}
+.headingfont-DarkGoldenRod .block-title {color:DarkGoldenRod;}
+.headingfont-MediumOrchid .block-title {color:MediumOrchid;}
+.headingfont-RosyBrown .block-title {color:RosyBrown;}
+.headingfont-DarkKhaki .block-title {color:DarkKhaki;}
+.headingfont-Silver .block-title {color:Silver;}
+.headingfont-MediumVioletRed .block-title {color:MediumVioletRed;}
+.headingfont-IndianRed  .block-title {color:IndianRed ;}
+.headingfont-Peru .block-title {color:Peru;}
+.headingfont-Chocolate .block-title {color:Chocolate;}
+.headingfont-Tan .block-title {color:Tan;}
+.headingfont-LightGray .block-title {color:LightGray;}
+.headingfont-Thistle .block-title {color:Thistle;}
+.headingfont-Orchid .block-title {color:Orchid;}
+.headingfont-GoldenRod .block-title {color:GoldenRod;}
+.headingfont-PaleVioletRed .block-title {color:PaleVioletRed;}
+.headingfont-Crimson .block-title {color:Crimson;}
+.headingfont-Gainsboro .block-title {color:Gainsboro;}
+.headingfont-Plum .block-title {color:Plum;}
+.headingfont-BurlyWood .block-title {color:BurlyWood;}
+.headingfont-LightCyan .block-title {color:LightCyan;}
+.headingfont-Lavender .block-title {color:Lavender;}
+.headingfont-DarkSalmon .block-title {color:DarkSalmon;}
+.headingfont-Violet .block-title {color:Violet;}
+.headingfont-PaleGoldenRod .block-title {color:PaleGoldenRod;}
+.headingfont-LightCoral .block-title {color:LightCoral;}
+.headingfont-Khaki .block-title {color:Khaki;}
+.headingfont-AliceBlue .block-title {color:AliceBlue;}
+.headingfont-HoneyDew .block-title {color:HoneyDew;}
+.headingfont-Azure .block-title {color:Azure;}
+.headingfont-SandyBrown .block-title {color:SandyBrown;}
+.headingfont-Wheat .block-title {color:Wheat;}
+.headingfont-Beige .block-title {color:Beige;}
+.headingfont-WhiteSmoke .block-title {color:WhiteSmoke;}
+.headingfont-MintCream .block-title {color:MintCream;}
+.headingfont-GhostWhite .block-title {color:GhostWhite;}
+.headingfont-Salmon .block-title {color:Salmon;}
+.headingfont-AntiqueWhite .block-title {color:AntiqueWhite;}
+.headingfont-Linen .block-title {color:Linen;}
+.headingfont-LightGoldenRodYellow .block-title {color:LightGoldenRodYellow;}
+.headingfont-OldLace .block-title {color:OldLace;}
+.headingfont-Red .block-title {color:Red;}
+.headingfont-Fuchsia .block-title {color:Fuchsia;}
+.headingfont-Magenta .block-title {color:Magenta;}
+.headingfont-DeepPink .block-title {color:DeepPink;}
+.headingfont-OrangeRed .block-title {color:OrangeRed;}
+.headingfont-Tomato .block-title {color:Tomato;}
+.headingfont-HotPink .block-title {color:HotPink;}
+.headingfont-Coral .block-title {color:Coral;}
+.headingfont-DarkOrange .block-title {color:DarkOrange;}
+.headingfont-LightSalmon .block-title {color:LightSalmon;}
+.headingfont-Orange .block-title {color:Orange;}
+.headingfont-LightPink .block-title {color:LightPink;}
+.headingfont-Pink .block-title {color:Pink;}
+.headingfont-Gold .block-title {color:Gold;}
+.headingfont-PeachPuff .block-title {color:PeachPuff;}
+.headingfont-NavajoWhite .block-title {color:NavajoWhite;}
+.headingfont-Moccasin .block-title {color:Moccasin;}
+.headingfont-Bisque .block-title {color:Bisque;}
+.headingfont-MistyRose .block-title {color:MistyRose;}
+.headingfont-BlanchedAlmond .block-title {color:BlanchedAlmond;}
+.headingfont-PapayaWhip .block-title {color:PapayaWhip;}
+.headingfont-LavenderBlush .block-title {color:LavenderBlush;}
+.headingfont-SeaShell .block-title {color:SeaShell;}
+.headingfont-Cornsilk .block-title {color:Cornsilk;}
+.headingfont-LemonChiffon .block-title {color:LemonChiffon;}
+.headingfont-FloralWhite .block-title {color:FloralWhite;}
+.headingfont-Snow .block-title {color:Snow;}
+.headingfont-Yellow .block-title {color:Yellow;}
+.headingfont-LightYellow .block-title {color:LightYellow;}
+.headingfont-Ivory .block-title {color:Ivory;}
+.headingfont-White .block-title {color:White;}
+
+/* -- End Colours -- */
+
+/* -- clear styles -- */
+table.clearstyles, table.clearstyles tr, table.clearstyles td {border:none;}
+/* -- End clear styles -- */
+
+
+/* sizing */
+.size5 {width:5%;margin-right:2%;display:inline-block;}
+.size5last {width:5%;margin-right:0;display:inline-block;}
+.size10 {width:10%;margin-right:2%;display:inline-block;}
+.size10last {width:10%;margin-right:0;display:inline-block;}
+.size15 {width:14%;margin-right:2%;display:inline-block;}
+.size15last {width:18%;margin-right:0;display:inline-block;}
+.size20 {width:18%;margin-right:2%;display:inline-block;}
+.size20last {width:14%;margin-right:0;display:inline-block;}
+.size25 {width:23%;margin-right:2%;display:inline-block;}
+.size25last {width:23%;margin-right:0;display:inline-block;}
+.size30 {width:30%;margin-right:2%;display:inline-block;}
+.size30last {width:30%;margin-right:0;display:inline-block;}
+
+/* End Sizing */
